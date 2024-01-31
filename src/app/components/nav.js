@@ -30,7 +30,7 @@ const Nav = () => {
                             Contact
                         </a>
                     </div>
-                    <div>
+                    <div className="flex sm:hidden">
                         <Image src={menu} alt="" />
                     </div>
                 </div>
