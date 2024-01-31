@@ -46,10 +46,10 @@ const Projects = () => {
                                 Coinbase is a crypto website that allows users to search for information about various cryptocurrencies in real-time.
                             </div>
                             <div className="flex justify-center items-center mt-4">
-                                <div className="font-bold text-lg badge badge-ghost p-3">
+                                <div className="font-bold text-lg badge badge-outline p-3">
                                     React
                                 </div>
-                                <div className="font-bold text-lg ml-4 badge badge-ghost p-3">
+                                <div className="font-bold text-lg ml-4 badge badge-outline p-3">
                                     Tailwind
                                 </div>
                             </div>
@@ -72,10 +72,10 @@ const Projects = () => {
                                 Productly is a landing page for a productivity app that helps users organize their tasks, manage their time, and achieve their goals.
                             </div>
                             <div className="flex justify-center items-center mt-4">
-                                <div className="font-bold text-lg badge badge-ghost p-3">
+                                <div className="font-bold text-lg badge badge-outline p-3">
                                     React
                                 </div>
-                                <div className="font-bold text-lg ml-4 badge badge-ghost p-3">
+                                <div className="font-bold text-lg ml-4 badge badge-outline p-3">
                                     Tailwind
                                 </div>
                             </div>
@@ -104,10 +104,10 @@ const Projects = () => {
                                 YTS allows users to download free movies in high quality and small file sizes. The website has a simple and user-friendly interface, with categories such as popular downloads, latest movies, upcoming movies, and genres. Users can also search for movies by title, year, rating, or quality.
                             </div>
                             <div className="flex justify-center items-center mt-4">
-                                <div className="font-bold text-lg badge badge-ghost p-3">
+                                <div className="font-bold text-lg badge badge-outline p-3">
                                     React
                                 </div>
-                                <div className="font-bold text-lg ml-4 badge badge-ghost p-3">
+                                <div className="font-bold text-lg ml-4 badge badge-outline p-3">
                                     Tailwind
                                 </div>
                             </div>
