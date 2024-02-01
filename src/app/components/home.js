@@ -1,11 +1,22 @@
 'use client'
-import React from 'react';
-import github from '../../../public/githu_outline_black.svg'
-import linkedin from '../../../public/linkedin_outline_black.svg'
+import React, {useEffect, useState} from 'react';
+import githubLight from '../../../public/github_outline_black.svg';
+import githubDark from '../../../public/github.png';
 import Image from "next/image";
 import {TypeAnimation} from "react-type-animation";
+import linkedinLight from '../../../public/linkedin_outline_white.svg';
+import linkedinDark from '../../../public/linkedin_outline_black.svg';
+import {useRouter} from "next/navigation";
+
 
 const Home = () => {
+    const router = useRouter()
+    const gotoLinkedin = () => {
+        router.push('https://www.linkedin.com/in/min-thant-2620411b3/')
+    }
+    const gotoGithub = () => {
+        router.push('https://github.com/Minthantmg')
+    }
     return (
         <div>
             <div className="w-full h-screen">
@@ -68,11 +79,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="flex sm:mt-10 mt-10">
-                        <div>
-                            <Image src={linkedin} alt="" className="w-8 h-8"/>
+                        <div onClick={gotoLinkedin} className="cursor-pointer">
+                            <Image src={linkedinDark} alt="" className="w-8 h-8 dark:hidden"/>
+                            <Image src={linkedinLight} alt="" className="w-8 h-8 hidden dark:block"/>
                         </div>
-                        <div className="sm:ml-6 ml-6">
-                            <Image src={github} alt="" className="w-8 h-8 dark:outline-white"/>
+                        <div className="sm:ml-6 ml-6 cursor-pointer" onClick={gotoGithub}>
+                            <Image src={githubDark} alt="" className="w-8 h-8 dark:hidden"/>
+                            <Image src={githubLight} alt="" className="w-8 h-8 hidden dark:block"/>
                         </div>
                     </div>
                 </div>

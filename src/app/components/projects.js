@@ -2,7 +2,9 @@
 import React from 'react';
 import Image from "next/image";
 import github from '../../../public/github_solid.svg'
+import github_light from '../../../public/github_solod_white.svg'
 import popup from '../../../public/popup.svg'
+import popup_light from '../../../public/popup_white.svg'
 import coin from '../../../public/coindom.png'
 import yts from '../../../public/yts_01.png'
 import product from '../../../public/productvity.png'
@@ -65,10 +67,12 @@ const Projects = () => {
                             </div>
                             <div className="flex mt-10">
                                 <div className="flex text-lg font-bold cursor-pointer" onClick={gotoGithub}>
-                                    Code <Image src={github} alt="" className="w-8 h-8 ml-1"/>
+                                    <span className="sm:mt-[3px]">Code</span><Image src={github} alt="" className="w-8 h-8 ml-1 dark:hidden"/>
+                                    <Image src={github_light} alt="" className="w-8 h-8 ml-1 hidden dark:block"/>
                                 </div>
                                 <div className="flex text-lg font-bold ml-10 cursor-pointer" onClick={gotoWebsite}>
-                                    Live Demo <Image src={popup} alt="" className="w-7 h-7 ml-1"/>
+                                    <span className="sm:mt-[3px]">Live Demo</span><Image src={popup} alt="" className="w-7 h-7 ml-1 dark:hidden"/>
+                                    <Image src={popup_light} alt="" className="w-7 h-7 ml-1 hidden dark:block"/>
                                 </div>
                             </div>
                         </div>
@@ -93,11 +97,13 @@ const Projects = () => {
                             </div>
                             <div className="flex justify-center items-center sm:mt-10 mt-10">
                                 <div className="flex text-lg font-bold cursor-pointer" onClick={gotoProductlyGithub}>
-                                    Code <Image src={github} alt="" className="w-8 h-8 ml-1"/>
+                                    <span className="sm:mt-[3px]">Code</span><Image src={github} alt="" className="w-8 h-8 ml-1 dark:hidden"/>
+                                    <Image src={github_light} alt="" className="w-8 h-8 ml-1 hidden dark:block"/>
                                 </div>
                                 <div className="flex text-lg font-bold ml-10 cursor-pointer"
                                      onClick={gotoProductlyWebsite}>
-                                    Live Demo <Image src={popup} alt="" className="w-7 h-7 ml-1"/>
+                                    <span className="sm:mt-[3px]">Live Demo</span><Image src={popup} alt="" className="w-7 h-7 ml-1 dark:hidden"/>
+                                    <Image src={popup_light} alt="" className="w-7 h-7 ml-1 hidden dark:block"/>
                                 </div>
                             </div>
                         </div>
@@ -132,10 +138,12 @@ const Projects = () => {
                             </div>
                             <div className="flex mt-10">
                                 <div className="flex text-lg font-bold cursor-pointer" onClick={gotoYtsGithub}>
-                                    Code <Image src={github} alt="" className="w-8 h-8 ml-1"/>
+                                    <span className="sm:mt-[3px]">Code</span><Image src={github} alt="" className="w-8 h-8 ml-1 dark:hidden"/>
+                                    <Image src={github_light} alt="" className="w-8 h-8 ml-1 hidden dark:block"/>
                                 </div>
                                 <div className="flex text-lg font-bold ml-10 cursor-pointer" onClick={gotoYtsWebsite}>
-                                    Live Demo <Image src={popup} alt="" className="w-7 h-7 ml-1"/>
+                                    <span className="sm:mt-[3px]">Live Demo</span><Image src={popup} alt="" className="w-7 h-7 ml-1 dark:hidden"/>
+                                    <Image src={popup_light} alt="" className="w-7 h-7 ml-1 hidden dark:block"/>
                                 </div>
                             </div>
                         </div>

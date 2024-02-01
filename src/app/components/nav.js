@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 import menu from '../../../public/hamberger.svg'
+import menu_light from '../../../public/hamberger_light.svg'
 import Theme from "@/app/components/theme";
 
 const Nav = () => {
@@ -35,7 +36,8 @@ const Nav = () => {
                         </a>
                     </div>
                     <div className="flex sm:hidden ml-4">
-                        <Image src={menu} alt="" />
+                        <Image src={menu} alt="" className="dark:hidden"/>
+                        <Image src={menu_light} alt="" className="hidden dark:block" />
                     </div>
                 </div>
             </div>

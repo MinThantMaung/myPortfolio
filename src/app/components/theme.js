@@ -1,7 +1,5 @@
 'use client'
 import React, {useEffect, useState} from 'react';
-import {FaMoon} from "react-icons/fa"
-import {BsSunFill} from "react-icons/bs"
 
 const Theme = () => {
     const [darkMode, setDarkMode] = useState(true)
