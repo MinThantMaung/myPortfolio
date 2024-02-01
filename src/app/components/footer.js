@@ -1,9 +1,19 @@
+'use client'
 import React from 'react';
 import github from '../../../public/github.svg'
 import linkedin from '../../../public/linkedin.svg'
 import Image from "next/image";
+import {useRouter} from "next/navigation";
 
 const Footer = () => {
+    const router = useRouter()
+    const gotoLinkedin = () => {
+        router.push('https://www.linkedin.com/in/min-thant-2620411b3/')
+    }
+    const gotoGithub = () => {
+        router.push('https://github.com/Minthantmg')
+    }
+
     return (
         <div className="flex justify-center w-full h-full bg-dark text-white">
             <div className="w-full max-w-5xl">
@@ -12,10 +22,10 @@ const Footer = () => {
                         Copyright © 2024. All rights are reserved
                     </div>
                     <div className="flex">
-                        <div>
+                        <div onClick={gotoLinkedin} className="cursor-pointer">
                             <Image src={linkedin} alt="" className="w-10 h-10"/>
                         </div>
-                        <div className="sm:ml-6 ml-6">
+                        <div className="sm:ml-6 ml-6 cursor-pointer" onClick={gotoGithub}>
                             <Image src={github} alt="" className="w-10 h-10"/>
                         </div>
                     </div>
