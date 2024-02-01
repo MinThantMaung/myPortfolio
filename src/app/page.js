@@ -4,7 +4,7 @@ import About from "@/app/components/about";
 import Contact from "@/app/components/contact";
 import Projects from "@/app/components/projects";
 import Nav from "@/app/components/nav";
-
+import Footer from "@/app/components/footer";
 const Page = () => {
     return (
         <div>
@@ -21,6 +21,7 @@ const Page = () => {
             <section id="contact">
                 <Contact />
             </section>
+            <Footer />
         </div>
     );
 };
