@@ -28,9 +28,9 @@ const Home = () => {
                                 <span className="sm:mr-4 mr-4">I am</span>
                                 <TypeAnimation
                                     sequence={[
-                                        'Front-End Developer',
+                                        'Front-End React Developer',
                                         1000,
-                                        'React Developer',
+                                        'Next.js Developer',
                                         1000
                                     ]}
                                     wrapper="span"

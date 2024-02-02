@@ -62,6 +62,9 @@ const Projects = () => {
                                     React
                                 </div>
                                 <div className="font-bold text-lg ml-4 badge badge-outline p-3">
+                                    Next.js
+                                </div>
+                                <div className="font-bold text-lg ml-4 badge badge-outline p-3">
                                     Tailwind
                                 </div>
                             </div>
@@ -90,6 +93,9 @@ const Projects = () => {
                             <div className="flex justify-center items-center mt-4">
                                 <div className="font-bold text-lg badge badge-outline p-3 text-black dark:text-white">
                                     React
+                                </div>
+                                <div className="font-bold text-lg ml-4 badge badge-outline p-3 text-black dark:text-white">
+                                    Next.js
                                 </div>
                                 <div className="font-bold text-lg ml-4 badge badge-outline p-3 text-black dark:text-white">
                                     Tailwind
@@ -131,6 +137,9 @@ const Projects = () => {
                             <div className="flex justify-center items-center mt-4">
                                 <div className="font-bold text-lg badge badge-outline p-3 text-black dark:text-white">
                                     React
+                                </div>
+                                <div className="font-bold text-lg ml-4 badge badge-outline p-3 text-black dark:text-white">
+                                    Next.js
                                 </div>
                                 <div className="font-bold text-lg ml-4 badge badge-outline p-3 text-black dark:text-white">
                                     Tailwind
