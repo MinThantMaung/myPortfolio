@@ -40,7 +40,7 @@ const Home = () => {
                             </div>
                             <div
                                 className="text-gray-600 sm:text-lg leading-tight sm:mt-4 dark:text-white text-center text-lg ml-6 mr-6 sm:ml-44 sm:mr-44 mt-4">
-                                hi, I'm Min Thant Mg.<span className="ml-1">A</span> Passionate Front-end React
+                                hi,  I&apos;m Min Thant Mg.<span className="ml-1">A</span> Passionate Front-end React
                                 Developer based in Yangon, Myanmar and passionate about crafting seamless user
                                 interfaces. From interactive components to top-notch performance, I turn ideas into
                                 engaging digital experiences.
