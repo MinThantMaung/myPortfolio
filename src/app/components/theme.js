@@ -8,6 +8,11 @@ const Theme = () => {
         setDarkMode(storedTheme === "dark");
     }, []);
 
+    const handleThemeChange = () => {
+        setDarkMode(!darkMode);
+        localStorage.setItem('theme', darkMode ? 'light' : 'dark');
+    };
+
     useEffect(() => {
         if (darkMode) {
             document.documentElement.classList.add('dark')
@@ -20,8 +25,13 @@ const Theme = () => {
     return (
         <>
             <label className="swap swap-rotate sm:mt-[4px] mt-1">
-                <input type="checkbox" className="theme-controller" value="synthwave" checked={darkMode}
-                       onClick={() => setDarkMode(!darkMode)}/>
+                <input
+                    type="checkbox"
+                    className="theme-controller"
+                    value="synthwave"
+                    checked={darkMode}
+                    onChange={handleThemeChange}
+                />
 
                 {darkMode ? (
                     <svg
