@@ -10,7 +10,7 @@ const About = () => {
                     <div className="sm:w-1/2 ml-4 mr-4 sm:ml-0 sm:mr-0">
                         <Image src={photo} alt="" className="rounded-xl"/>
                     </div>
-                    <div className="sm:w-1/2 sm:ml-10 ml-4 mr-2 sm:mr-0">
+                    <div className="sm:w-1/2 sm:ml-10 ml-4 mr-2 sm:mr-0 text-black dark:text-white">
                         <div className="text-blue-600 font-bold mt-6 sm:mt-0">ABOUT ME</div>
                         <div className="text-[25px] font-bold sm:mt-2 mt-2">
                             Front-end Developer

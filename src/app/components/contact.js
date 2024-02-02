@@ -19,7 +19,7 @@ const Contact = () => {
                     <div className="text-blue-600 font-bold">
                         CONTACT
                     </div>
-                    <div className="font-bold text-2xl mt-4">
+                    <div className="font-bold text-2xl mt-4 text-black dark:text-white">
                         Start by <span className="text-blue-600 underline cursor-pointer" onClick={openGmail}>Saying Hi</span>
                     </div>
                     <div className="flex flex-col sm:flex-row justify-center items-center sm:justify-start sm:items-start mt-16">
@@ -30,7 +30,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="sm:ml-4 ml-0 mt-2 sm:mt-0">
-                                <div className="font-bold text-lg">
+                                <div className="font-bold text-lg text-black dark:text-white">
                                     Location
                                 </div>
                                 <div className="sm:mt-1 mt-2 text-gray-600 hover:text-blue-600 cursor-pointer dark:text-white">
@@ -45,7 +45,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="sm:ml-4 mt-2 sm:mt-0">
-                                <div className="font-bold text-lg">
+                                <div className="font-bold text-lg text-black dark:text-white">
                                     Mail
                                 </div>
                                 <div className="sm:mt-1 mt-2 text-gray-600 hover:text-blue-600 cursor-pointer dark:text-white" onClick={openGmail}>

@@ -14,7 +14,7 @@ const Nav = ({onOpen}) => {
         <div>
             <div
                 className="flex justify-between items-center sm:p-8 p-4 fixed bg-white w-full z-10 dark:bg-dark dark:text-white">
-                <div className="sm:text-xl font-bold">
+                <div className="sm:text-xl font-bold text-black dark:text-white">
                     MinThant.dev
                 </div>
                 <div className="flex">

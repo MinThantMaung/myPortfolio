@@ -24,7 +24,7 @@ const Home = () => {
                     className="flex flex-col justify-center items-center sm:w-full w-full h-full sm:h-screen bg-gray-50 dark:bg-dark dark:text-white">
                     <div className="flex">
                         <div className="flex flex-col sm:justify-center sm:items-center">
-                            <div className="font-bold sm:text-6xl text-5xl text-center">
+                            <div className="font-bold sm:text-6xl text-5xl text-center text-black dark:text-white">
                                 <span className="sm:mr-4 mr-4">I am</span>
                                 <TypeAnimation
                                     sequence={[
@@ -39,15 +39,17 @@ const Home = () => {
                                 />
                             </div>
                             <div
-                                className="text-gray-600 sm:text-lg leading-tight sm:mt-4 dark:text-white text-center text-lg ml-4 mr-4 sm:ml-0 sm:mr-0 mt-4">
+                                className="text-gray-600 sm:text-lg leading-tight sm:mt-4 dark:text-white text-center text-lg ml-6 mr-6 sm:ml-44 sm:mr-44 mt-4">
                                 hi, I'm Min Thant Mg.<span className="ml-1">A</span> Passionate Front-end React
-                                Developer based in Yangon, Myanmar.
+                                Developer based in Yangon, Myanmar and passionate about crafting seamless user
+                                interfaces. From interactive components to top-notch performance, I turn ideas into
+                                engaging digital experiences.
                             </div>
                         </div>
                     </div>
                     <div className="sm:flex sm:flex-row flex flex-col mt-12 z-0 ml-32 sm:ml-0">
                         <div
-                            className="flex sm:justify-start sm:items-start justify-center items-center font-bold sm:border-r border-black dark:border-white mr-0 sm:mr-10 sm:w-32 sm:h-7 sm:mt-4 sm:text-lg text-lg border-b sm:border-b-0 w-32 pb-2 sm:pb-0">
+                            className="flex sm:justify-start sm:items-start justify-center items-center font-bold text-black dark:text-white sm:border-r border-black dark:border-white mr-0 sm:mr-10 sm:w-32 sm:h-7 sm:mt-4 sm:text-lg text-lg border-b sm:border-b-0 w-32 pb-2 sm:pb-0">
                             Tech Stack
                         </div>
                         <div className="sm:flex mt-6 sm:mt-0 -ml-16 sm:ml-0">

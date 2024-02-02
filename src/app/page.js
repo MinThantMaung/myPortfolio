@@ -11,7 +11,7 @@ const Page = () => {
     const [display, setDisplay] = useState(false);
 
     const handleMenuClick = (event) => {
-        event.preventDefault();
+        // event.preventDefault();
         setDisplay(!display);
     };
 
