@@ -49,7 +49,7 @@ const Contact = () => {
                                     Mail
                                 </div>
                                 <div className="sm:mt-1 mt-2 text-gray-600 hover:text-blue-600 cursor-pointer dark:text-white" onClick={openGmail}>
-                                    <a>
+                                    <a href="mailto:minthantmg169@gmail.com" onClick={openGmail}>
                                         minthantmg169@gmail.com
                                     </a>
                                 </div>
