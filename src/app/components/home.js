@@ -55,27 +55,27 @@ const Home = () => {
                         <div className="sm:flex mt-6 sm:mt-0 -ml-16 sm:ml-0">
                             <div data-tip="Html,Css" className="tooltip w-1/2">
                                 <a href="https://skillicons.dev">
-                                    <img src="https://skillicons.dev/icons?i=html,css"/>
+                                    <img src="https://skillicons.dev/icons?i=html,css" alt=""/>
                                 </a>
                             </div>
                             <div className="sm:ml-8 tooltip w-1/2" data-tip="JavaScript,Typescript">
                                 <a href="https://skillicons.dev">
-                                    <img src="https://skillicons.dev/icons?i=js,ts"/>
+                                    <img src="https://skillicons.dev/icons?i=js,ts" alt=""/>
                                 </a>
                             </div>
                             <div className="sm:ml-8 tooltip w-1/2 mt-2 sm:mt-0" data-tip="React,Next">
                                 <a href="https://skillicons.dev">
-                                    <img src="https://skillicons.dev/icons?i=react,next"/>
+                                    <img src="https://skillicons.dev/icons?i=react,next" alt=""/>
                                 </a>
                             </div>
                             <div className="sm:ml-8 tooltip w-1/2 mt-2 sm:mt-0" data-tip="Tailwind,Sass">
                                 <a href="https://skillicons.dev">
-                                    <img src="https://skillicons.dev/icons?i=tailwind,sass"/>
+                                    <img src="https://skillicons.dev/icons?i=tailwind,sass" alt=""/>
                                 </a>
                             </div>
                             <div className="sm:ml-8 tooltip w-1/2 mt-2 sm:mt-0" data-tip="Java,Kotlin">
                                 <a href="https://skillicons.dev">
-                                    <img src="https://skillicons.dev/icons?i=java,kotlin"/>
+                                    <img src="https://skillicons.dev/icons?i=java,kotlin" alt=""/>
                                 </a>
                             </div>
                         </div>
