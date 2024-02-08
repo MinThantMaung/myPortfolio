@@ -32,6 +32,11 @@ const Nav = ({onOpen}) => {
                         </a>
                     </div>
                     <div className="hidden sm:block sm:text-lg font-bold sm:ml-8">
+                        <a href="#timeline">
+                            Career
+                        </a>
+                    </div>
+                    <div className="hidden sm:block sm:text-lg font-bold sm:ml-8">
                         <a href="#project">
                             Projects
                         </a>

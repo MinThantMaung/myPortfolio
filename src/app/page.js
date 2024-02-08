@@ -7,6 +7,7 @@ import Projects from "@/app/components/projects";
 import Nav from "@/app/components/nav";
 import Footer from "@/app/components/footer";
 import Menu from "@/app/components/menu";
+import Timeline from "@/app/components/timeline";
 const Page = () => {
     const [display, setDisplay] = useState(false);
 
@@ -30,6 +31,9 @@ const Page = () => {
                     </section>
                     <section id="about">
                         <About />
+                    </section>
+                    <section id="timeline">
+                        <Timeline />
                     </section>
                     <section id="project">
                         <Projects />
