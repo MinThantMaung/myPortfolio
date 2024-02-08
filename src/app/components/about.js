@@ -19,10 +19,13 @@ const About = () => {
                             based in Yangon, Myanmar
                         </div>
                         <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white">
-                            Hey, my name is Min Thant Mg, and I&apos;m a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.
+                            Hey, my name is Min Thant Mg, and I&apos;m a Frontend Developer. My passion is to create and
+                            develop a clean UI/UX for my users.
                         </div>
                         <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white">
-                            My main stack currently is React/Next.js in combination with Tailwind CSS.
+                            I use React/Next.js and Tailwind CSS to create websites that are fast, functional, and
+                            attractive. I also know how to work with HTML, CSS, JavaScript, TypeScript, and Sass, and
+                            I’m always looking for new challenges and opportunities to grow as a developer.
                         </div>
                     </div>
                 </div>
