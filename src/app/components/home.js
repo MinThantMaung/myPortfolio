@@ -28,9 +28,9 @@ const Home = () => {
                                 <span className="sm:mr-4 mr-4">I am</span>
                                 <TypeAnimation
                                     sequence={[
-                                        'Front-End Developer',
+                                        'Front-End React Developer',
                                         1000,
-                                        'React Developer',
+                                        'Next.js Developer',
                                         1000
                                     ]}
                                     wrapper="span"
@@ -40,44 +40,50 @@ const Home = () => {
                             </div>
                             <div
                                 className="text-gray-600 sm:text-lg leading-tight sm:mt-4 dark:text-white text-center text-lg ml-6 mr-6 sm:ml-44 sm:mr-44 mt-4">
-                                hi,  I&apos;m Min Thant Mg.<span className="ml-1">A</span> Passionate Front-end React
+                                hi, I&apos;m Min Thant Mg.<span className="ml-1">A</span> Passionate Front-end React
                                 Developer based in Yangon, Myanmar and passionate about crafting seamless user
                                 interfaces. From interactive components to top-notch performance, I turn ideas into
                                 engaging digital experiences.
                             </div>
                         </div>
                     </div>
-                    <div className="sm:flex sm:flex-row flex flex-col mt-12 z-0 ml-32 sm:ml-0">
+                    <div className="sm:flex sm:flex-row flex flex-col justify-center items-center mt-12 z-0">
                         <div
                             className="flex sm:justify-start sm:items-start justify-center items-center font-bold text-black dark:text-white sm:border-r border-black dark:border-white mr-0 sm:mr-10 sm:w-32 sm:h-7 sm:mt-4 sm:text-lg text-lg border-b sm:border-b-0 w-32 pb-2 sm:pb-0">
                             Tech Stack
                         </div>
-                        <div className="sm:flex mt-6 sm:mt-0 -ml-16 sm:ml-0">
-                            <div data-tip="Html,Css" className="tooltip w-1/2">
-                                <a href="https://skillicons.dev" aria-label="View HTML and Css icons">
-                                    <img src="https://skillicons.dev/icons?i=html,css" alt=""/>
-                                </a>
+                        <div className="sm:flex-row flex justify-around items-center mt-12 sm:mt-4">
+                            <div className="sm:flex-row flex flex-col w-1/2 sm:mr-4 mr-0">
+                                <div data-tip="Html,Css" className="sm:ml-4 ml-4 tooltip">
+                                    <a href="https://skillicons.dev" aria-label="View HTML and Css icons">
+                                        <img src="https://skillicons.dev/icons?i=html,css" alt=""/>
+                                    </a>
+                                </div>
+                                <div className="tooltip mt-6 sm:mt-0 sm:ml-4 ml-4" data-tip="JavaScript,Typescript">
+                                    <a href="https://skillicons.dev" aria-label="View JavaScript and TypeScript icons">
+                                        <img src="https://skillicons.dev/icons?i=js,ts" alt=""/>
+                                    </a>
+                                </div>
                             </div>
-                            <div className="sm:ml-8 tooltip w-1/2" data-tip="JavaScript,Typescript">
-                                <a href="https://skillicons.dev" aria-label="View JavaScript and TypeScript icons">
-                                    <img src="https://skillicons.dev/icons?i=js,ts" alt=""/>
-                                </a>
+                            <div className="sm:flex-row flex flex-col w-1/2 ml-12 sm:ml-0">
+                                <div className="tooltip sm:ml-4 ml-4" data-tip="React,Next">
+                                    <a href="https://skillicons.dev" aria-label="View React and Next icons">
+                                        <img src="https://skillicons.dev/icons?i=react,next" alt=""/>
+                                    </a>
+                                </div>
+                                <div className="tooltip mt-6 sm:mt-0 sm:ml-4 ml-4" data-tip="Tailwind,Sass">
+                                    <a href="https://skillicons.dev" aria-label="View Tailwind and Sass icons">
+                                        <img src="https://skillicons.dev/icons?i=tailwind,sass" alt=""/>
+                                    </a>
+                                </div>
                             </div>
-                            <div className="sm:ml-8 tooltip w-1/2 mt-2 sm:mt-0" data-tip="React,Next">
-                                <a href="https://skillicons.dev" aria-label="View React and Next icons">
-                                    <img src="https://skillicons.dev/icons?i=react,next" alt=""/>
-                                </a>
-                            </div>
-                            <div className="sm:ml-8 tooltip w-1/2 mt-2 sm:mt-0" data-tip="Tailwind,Sass">
-                                <a href="https://skillicons.dev" aria-label="View Tailwind and Sass icons">
-                                    <img src="https://skillicons.dev/icons?i=tailwind,sass" alt=""/>
-                                </a>
-                            </div>
-                            <div className="sm:ml-8 tooltip w-1/2 mt-2 sm:mt-0" data-tip="Java,Kotlin">
-                                <a href="https://skillicons.dev" aria-label="View Java and Kotlin icons">
-                                    <img src="https://skillicons.dev/icons?i=java,kotlin" alt=""/>
-                                </a>
-                            </div>
+                            {/*<div>*/}
+                            {/*    <div className="sm:ml-8 tooltip" data-tip="Java,Kotlin">*/}
+                            {/*        <a href="https://skillicons.dev" aria-label="View Java and Kotlin icons">*/}
+                            {/*            <img src="https://skillicons.dev/icons?i=java,kotlin" alt=""/>*/}
+                            {/*        </a>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                     <div className="flex sm:mt-10 mt-10">
