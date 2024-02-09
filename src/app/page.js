@@ -20,7 +20,7 @@ const Page = () => {
         setDisplay(false);
     };
     return (
-        <div>
+        <div className="overflow-hidden">
             {display ? (
                 <Menu onClose={closeMobileMenu} />
             ) : (
