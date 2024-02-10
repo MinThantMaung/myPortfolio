@@ -8,11 +8,11 @@ const Menu = ({ onClose }) => {
     };
 
     return (
-        <div>
-            <div onClick={handleMenuClose} className="bg-white flex justify-end pt-10 pr-10">
+        <div className="w-full h-screen bg-white">
+            <div onClick={handleMenuClose} className="bg-white flex justify-end pt-5 pr-5">
                 <Image src={close} alt="" className="w-7 h-7"/>
             </div>
-            <div className="flex flex-col justify-center items-center w-full h-full pt-64 pb-60 bg-white">
+            <div className="flex flex-col justify-center items-center h-full">
                 <a href="#home" className="font-bold text-3xl" onClick={handleMenuClose}>
                     Home
                 </a>
