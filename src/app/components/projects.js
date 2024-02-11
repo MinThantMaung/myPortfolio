@@ -35,7 +35,7 @@ const Projects = () => {
     };
     return (
         <div>
-            <div className="flex justify-center w-full h-full bg-white dark:bg-dark dark:text-white">
+            <div className="flex justify-center w-full h-full bg-white dark:bg-dark dark:text-white md:pl-4 md:pr-4">
                 <div className="w-full max-w-5xl">
                     <div className="font-bold text-blue-600 sm:pt-28 pt-20 ml-4 mr-2 sm:ml-0 sm:mr-0">
                         PROJECTS
