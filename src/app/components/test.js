@@ -73,7 +73,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center items-center sm:mt-10 mt-10 pb-20 sm:pt-0">
+                <div className="flex justify-center items-center sm:mt-10 mt-10">
                     <div onClick={gotoLinkedin} className="cursor-pointer">
                         <Image src={linkedinDark} alt="" className="w-8 h-8 dark:hidden"/>
                         <Image src={linkedinLight} alt="" className="w-8 h-8 hidden dark:block"/>

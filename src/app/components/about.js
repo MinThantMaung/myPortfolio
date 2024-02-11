@@ -17,7 +17,7 @@ const About = () => {
         fadeElems.forEach((el) => observer.observe(el))
     }, []);
     return (
-        <div className="flex flex-col sm:flex-row justify-center w-full h-full bg-white dark:bg-dark dark:text-white">
+        <div className="flex flex-col sm:flex-row justify-center w-full h-full bg-white dark:bg-dark dark:text-white pt-14 sm:pt-0">
             <div className="w-full max-w-5xl">
                 <div className="flex flex-col sm:flex-row justify-center items-center w-full h-screen">
                     <div className="sm:w-1/2 ml-4 mr-4 sm:ml-0 sm:mr-0">
