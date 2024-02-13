@@ -1,15 +1,21 @@
 import React, {useEffect} from 'react';
 import photo from '../../../public/mac.jpg'
 import Image from "next/image";
+import {useRouter} from "next/navigation";
 
 const About = () => {
+    const router = useRouter()
+
+    const goToMoreAbout = () =>{
+        router.push('/more/moreAbout/')
+    }
     useEffect(() => {
         const fadeElems = document.querySelectorAll('.fade-in');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
-                if (entry.isIntersecting){
+                if (entry.isIntersecting) {
                     entry.target.classList.add('show')
-                }else{
+                } else {
                     entry.target.classList.remove('show')
                 }
             })
@@ -32,14 +38,15 @@ const About = () => {
                             based in Yangon, Myanmar
                         </div>
                         <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white fade-in">
-                            Hey, my name is Min Thant Mg, and I&apos;m a Frontend Developer. My passion is to create and
+                            Hey, my name is Stefan, and I&apos;m a Frontend Developer. My passion is to create and
                             develop a clean UI/UX for my users.
                         </div>
                         <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white fade-in">
-                            I use React/Next.js and Tailwind CSS to create websites that are fast, functional, and
-                            attractive. I also know how to work with HTML, CSS, JavaScript, TypeScript, and Sass, and
-                            I’m always looking for new challenges and opportunities to grow as a developer.
+                            My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.
                         </div>
+                        {/*<div className="text-sm sm:mt-6 underline text-blue-500 cursor-pointer" onClick={goToMoreAbout}>*/}
+                        {/*    -&gt; more about me*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>
