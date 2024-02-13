@@ -13,7 +13,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="flex flex-col sm:flex-row  justify-center w-full h-full bg-white dark:bg-dark dark:text-white">
+        <div className="flex flex-col sm:flex-row  justify-center w-full h-full bg-white dark:bg-dark dark:text-white md:pl-4 md:pr-4">
             <div className="w-full max-w-5xl">
                 <div className="w-full h-fit text-center sm:text-start sm:pt-32 sm:pb-32 mt-20 sm:mt-0 pb-24">
                     <div className="text-blue-600 font-bold">

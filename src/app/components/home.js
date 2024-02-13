@@ -19,24 +19,27 @@ const Home = () => {
     }
     return (
         <div>
-            <div className="w-full h-screen">
+            <div className="w-full h-full">
                 <div
-                    className="flex flex-col justify-center items-center sm:w-full w-full h-full sm:h-screen bg-gray-50 dark:bg-dark dark:text-white">
+                    className="flex flex-col justify-center items-center sm:w-full w-full h-full sm:h-screen bg-white dark:bg-dark dark:text-white pb-10 sm:pb-0">
                     <div className="flex">
                         <div className="flex flex-col sm:justify-center sm:items-center">
-                            <div className="font-bold sm:text-6xl text-5xl text-center text-black dark:text-white">
-                                <span className="sm:mr-4 mr-4">I am</span>
-                                <TypeAnimation
-                                    sequence={[
-                                        'Front-End React Developer',
-                                        1000,
-                                        'Next.js Developer',
-                                        1000
-                                    ]}
-                                    wrapper="span"
-                                    speed={10}
-                                    repeat={Infinity}
-                                />
+                            <div
+                                className="flex flex-col sm:flex-row font-bold text-center text-black dark:text-white pt-20 sm:pt-0">
+                                <span className="mb-4 sm:mb-0 text-6xl">I am</span>
+                                <div className="text-6xl ml-4">
+                                    <TypeAnimation
+                                        sequence={[
+                                            'Front-End React Developer',
+                                            1000,
+                                            'Next.js Developer',
+                                            1000
+                                        ]}
+                                        wrapper="span"
+                                        speed={10}
+                                        repeat={Infinity}
+                                    />
+                                </div>
                             </div>
                             <div
                                 className="text-gray-600 sm:text-lg leading-tight sm:mt-4 dark:text-white text-center text-lg ml-6 mr-6 sm:ml-44 sm:mr-44 mt-4">
@@ -50,7 +53,7 @@ const Home = () => {
                     <div className="sm:flex sm:flex-row flex flex-col justify-center items-center mt-12 z-0">
                         <div
                             className="flex sm:justify-start sm:items-start justify-center items-center font-bold text-black dark:text-white sm:border-r border-black dark:border-white mr-0 sm:mr-10 sm:w-32 sm:h-7 sm:mt-4 sm:text-lg text-lg border-b sm:border-b-0 w-32 pb-2 sm:pb-0">
-                            Tech Stack
+                        Tech Stack
                         </div>
                         <div className="sm:flex-row flex justify-around items-center mt-12 sm:mt-4">
                             <div className="sm:flex-row flex flex-col w-1/2 sm:mr-4 mr-0">
@@ -77,13 +80,6 @@ const Home = () => {
                                     </a>
                                 </div>
                             </div>
-                            {/*<div>*/}
-                            {/*    <div className="sm:ml-8 tooltip" data-tip="Java,Kotlin">*/}
-                            {/*        <a href="https://skillicons.dev" aria-label="View Java and Kotlin icons">*/}
-                            {/*            <img src="https://skillicons.dev/icons?i=java,kotlin" alt=""/>*/}
-                            {/*        </a>*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
                         </div>
                     </div>
                     <div className="flex sm:mt-10 mt-10">
