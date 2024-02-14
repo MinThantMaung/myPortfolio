@@ -38,7 +38,7 @@ const About = () => {
                             based in Yangon, Myanmar
                         </div>
                         <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white fade-in">
-                            Hey, my name is Stefan, and I&apos;m a Frontend Developer. My passion is to create and
+                            Hey, my name is Min Thant Mg, and I&apos;m a Frontend Developer. My passion is to create and
                             develop a clean UI/UX for my users.
                         </div>
                         <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white fade-in">
