@@ -5,16 +5,23 @@ import menu from '../../../public/hamberger.svg'
 import menu_light from '../../../public/hamberger_light.svg'
 import Theme from "@/app/components/theme";
 import Menu from "@/app/components/menu";
+import Link from "next/link";
+import {useRouter} from "next/navigation";
 
 const Nav = ({onOpen}) => {
+    const router = useRouter()
     const handleMenuOpen = (event) => {
         onOpen && onOpen(event);
     };
+
+    const gotoMain = () => {
+        router.push('/')
+    }
     return (
         <div>
             <div
                 className="flex justify-between items-center sm:p-8 p-4 fixed bg-white w-full z-10 dark:bg-dark dark:text-white">
-                <div className="sm:text-xl font-bold text-black dark:text-white">
+                <div className="sm:text-xl font-bold text-black dark:text-white cursor-pointer" onClick={gotoMain}>
                     MinThant.dev
                 </div>
                 <div className="flex">
@@ -48,7 +55,8 @@ const Nav = ({onOpen}) => {
                     </div>
                     <div className="flex sm:hidden ml-4">
                         <Image src={menu} alt="" className="dark:hidden w-7 h-7 mt-[5px]" onClick={handleMenuOpen}/>
-                        <Image src={menu_light} alt="" className="hidden dark:block w-7 h-7 mt-[5px]" onClick={handleMenuOpen} width="25" height="25"/>
+                        <Image src={menu_light} alt="" className="hidden dark:block w-7 h-7 mt-[5px]"
+                               onClick={handleMenuOpen} width="25" height="25"/>
                     </div>
                 </div>
             </div>
