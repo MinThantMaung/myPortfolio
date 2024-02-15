@@ -33,6 +33,8 @@ const Home = () => {
                                             'Front-End React Developer',
                                             1000,
                                             'Next.js Developer',
+                                            1000,
+                                            'Web Developer',
                                             1000
                                         ]}
                                         wrapper="span"
