@@ -17,6 +17,16 @@ const Home = () => {
     const gotoGithub = () => {
         router.push('https://github.com/Minthantmg')
     }
+    const cvUrl = 'https://drive.google.com/file/d/1jduqnpmyV-5f-7-nm412ABTRCOXAYLiS/view?usp=drivesdk';
+
+    const downloadResume = (url) => {
+        const fileName = url.split('/').pop()
+        const aTag = document.createElement('a')
+        aTag.href = url
+        aTag.setAttribute('download', fileName)
+        aTag.click()
+        aTag.remove()
+    }
     return (
         <div>
             <div className="w-full h-full">
@@ -50,12 +60,19 @@ const Home = () => {
                                 interfaces. From interactive components to top-notch performance, I turn ideas into
                                 engaging digital experiences.
                             </div>
+                            <div
+                                className="text-gray-600 sm:text-lg leading-tight sm:mt-4 dark:text-white text-center text-lg ml-6 mr-6 sm:ml-44 sm:mr-44 mt-4"
+                            >
+                                If you interest more about me <span onClick={() => {
+                                downloadResume(cvUrl)
+                            }} className="underline hover:text-blue-500 cursor-pointer">click here</span>
+                            </div>
                         </div>
                     </div>
                     <div className="sm:flex sm:flex-row flex flex-col justify-center items-center mt-12 z-0">
                         <div
                             className="flex sm:justify-start sm:items-start justify-center items-center font-bold text-black dark:text-white sm:border-r border-black dark:border-white mr-0 sm:mr-10 sm:w-32 sm:h-7 sm:mt-4 sm:text-lg text-lg border-b sm:border-b-0 w-32 pb-2 sm:pb-0">
-                        Tech Stack
+                            Tech Stack
                         </div>
                         <div className="sm:flex-row flex justify-around items-center mt-12 sm:mt-4">
                             <div className="sm:flex-row flex flex-col w-1/2 sm:mr-4 mr-0">
