@@ -44,19 +44,19 @@ const Experience = () => {
                     </div>
                     <div className="mt-6 pl-4 pr-4 sm:pl-0 sm:pr-0 grid sm:grid-cols-4 grid-cols-2 gap-6">
                         <div
-                            className="flex justify-center items-center border border-warning rounded-lg grow">
+                            className="flex justify-center items-center border border-warning rounded-lg grow fade-in-left">
                             <Image src={js} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-blue-300 rounded-lg grow">
+                            className="flex justify-center items-center border border-blue-300 rounded-lg grow fade-in-left">
                             <Image src={react} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-orange-400 rounded-lg grow">
+                            className="flex justify-center items-center border border-orange-400 rounded-lg grow fade-in">
                             <Image src={java} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-blue-400 rounded-lg grow">
+                            className="flex justify-center items-center border border-blue-400 rounded-lg grow fade-in">
                             <Image src={kotlin} alt="" className="w-16 h-32"/>
                         </div>
                         {/*<div*/}
@@ -65,20 +65,20 @@ const Experience = () => {
                         {/*    <Image src={ts} alt="" className="w-16 h-32 dark:hidden"/>*/}
                         {/*</div>*/}
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
+                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow fade-in-left">
                             <Image src={next_white} alt="" className="w-16 h-32 hidden dark:block"/>
                             <Image src={next} alt="" className="w-16 h-32 dark:hidden"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-red-500 rounded-lg grow">
+                            className="flex justify-center items-center border border-red-500 rounded-lg grow fade-in-left">
                             <Image src={html} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-blue-500 rounded-lg grow">
+                            className="flex justify-center items-center border border-blue-500 rounded-lg grow fade-in">
                             <Image src={css} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-accent rounded-lg grow">
+                            className="flex justify-center items-center border border-accent rounded-lg grow fade-in">
                             <Image src={tw} alt="" className="w-16 h-32"/>
                         </div>
                         {/*<div*/}
@@ -93,20 +93,20 @@ const Experience = () => {
                     </div>
                     <div className="mt-6 pl-4 pr-4 sm:pl-0 sm:pr-0 grid sm:grid-cols-4 grid-cols-2 gap-4 sm:pb-10 pb-4">
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
+                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow fade-in-left">
                             <Image src={macos_white} alt="" className="w-16 h-32 hidden dark:block"/>
                             <Image src={macos} alt="" className="w-16 h-32 dark:hidden"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
+                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow fade-in-left">
                             <Image src={ws} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
+                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow fade-in">
                             <Image src={vscode} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
+                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow fade-in">
                             <Image src={vc_white} alt="" className="w-16 h-32 hidden dark:block"/>
                             <Image src={vc} alt="" className="w-16 h-32 dark:hidden"/>
                         </div>
