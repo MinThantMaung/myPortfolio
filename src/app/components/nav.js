@@ -22,7 +22,7 @@ const Nav = ({onOpen}) => {
                 <div className="sm:text-xl font-bold text-black dark:text-white cursor-pointer" onClick={gotoMain}>
                     MinThant.dev
                 </div>
-                <div className="flex">
+                <div className="flex mt-2">
                     <div className="ml-10 mt-[2px] sm:-mt-[4px]">
                         <Theme/>
                     </div>
