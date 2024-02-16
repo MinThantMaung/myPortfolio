@@ -40,7 +40,9 @@ const Home = () => {
                                 <div className="text-6xl ml-4">
                                     <TypeAnimation
                                         sequence={[
-                                            'Front-End React Developer',
+                                            'Front-End Developer',
+                                            1000,
+                                            'React Developer',
                                             1000,
                                             'Next.js Developer',
                                             1000,
