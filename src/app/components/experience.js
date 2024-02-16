@@ -40,7 +40,7 @@ const Experience = () => {
                     </div>
                     <div
                         className="font-bold text-2xl pl-4 sm:pl-0 pr-2 sm:ml-0 sm:mr-0 pt-2 sm:mt-0 text-black dark:text-white bg-white dark:bg-dark">
-                        Design and Development Skills that Pay my Bills
+                        Design and Development Skills
                     </div>
                     <div className="mt-6 pl-4 pr-4 sm:pl-0 sm:pr-0 grid sm:grid-cols-4 grid-cols-2 gap-6">
                         <div
