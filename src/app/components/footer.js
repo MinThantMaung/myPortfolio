@@ -8,7 +8,7 @@ import {useRouter} from "next/navigation";
 const Footer = () => {
     const router = useRouter()
     const gotoLinkedin = () => {
-        router.push('https://www.linkedin.com/in/min-thant-2620411b3/')
+        router.push('https://www.linkedin.com/in/min-thant-mg-2620411b3/')
     }
     const gotoGithub = () => {
         router.push('https://github.com/Minthantmg')

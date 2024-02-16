@@ -12,6 +12,10 @@ const Contact = () => {
         window.open(mailtoLink);
     };
 
+    const openLocation = () => {
+        window.open('https://www.google.com/maps/place/Yangon/@16.8390767,96.0167614,11z/data=!4m15!1m8!3m7!1s0x30c1949e223e196b:0x56fbd271f8080bb4!2sYangon!3b1!8m2!3d16.840939!4d96.173526!16zL20vMGZzNTQ!3m5!1s0x30c1949e223e196b:0x56fbd271f8080bb4!8m2!3d16.840939!4d96.173526!16zL20vMGZzNTQ?entry=ttu')
+    }
+
     return (
         <div className="flex flex-col sm:flex-row  justify-center w-full h-full bg-white dark:bg-dark dark:text-white md:pl-4 md:pr-4">
             <div className="w-full max-w-5xl">
@@ -33,7 +37,7 @@ const Contact = () => {
                                 <div className="font-bold text-lg text-black dark:text-white">
                                     Location
                                 </div>
-                                <div className="sm:mt-1 mt-2 text-gray-600 hover:text-blue-600 cursor-pointer dark:text-white">
+                                <div className="sm:mt-1 mt-2 text-gray-600 hover:text-blue-600 cursor-pointer dark:text-white" onClick={openLocation}>
                                     Yangon, Myanmar
                                 </div>
                             </div>

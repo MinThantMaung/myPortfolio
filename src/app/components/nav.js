@@ -1,11 +1,9 @@
 'use client'
-import React, {useState} from 'react';
+import React from 'react';
 import Image from "next/image";
 import menu from '../../../public/hamberger.svg'
 import menu_light from '../../../public/hamberger_light.svg'
 import Theme from "@/app/components/theme";
-import Menu from "@/app/components/menu";
-import Link from "next/link";
 import {useRouter} from "next/navigation";
 
 const Nav = ({onOpen}) => {
@@ -25,35 +23,35 @@ const Nav = ({onOpen}) => {
                     MinThant.dev
                 </div>
                 <div className="flex">
-                    <div className="ml-10 mt-[2px] sm:-mt-[2px]">
+                    <div className="ml-10 mt-[2px] sm:-mt-[4px]">
                         <Theme/>
                     </div>
-                    <div className="hidden sm:block sm:text-lg font-bold sm:ml-8">
+                    <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#home">
                             Home
                         </a>
                     </div>
-                    <div className="hidden sm:block sm:text-lg font-bold sm:ml-8">
+                    <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#about">
                             About
                         </a>
                     </div>
-                    <div className="hidden sm:block sm:text-lg font-bold sm:ml-8">
+                    <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#timeline">
                             Career
                         </a>
                     </div>
-                    <div className="hidden sm:block sm:text-lg font-bold sm:ml-8">
+                    <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#skill">
                             Skills
                         </a>
                     </div>
-                    <div className="hidden sm:block sm:text-lg font-bold sm:ml-8">
+                    <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#project">
                             Projects
                         </a>
                     </div>
-                    <div className="hidden sm:block sm:text-lg font-bold sm:ml-8">
+                    <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#contact">
                             Contact
                         </a>

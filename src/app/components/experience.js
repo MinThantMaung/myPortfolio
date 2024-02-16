@@ -40,28 +40,24 @@ const Experience = () => {
                     </div>
                     <div
                         className="font-bold text-2xl pl-4 sm:pl-0 pr-2 sm:ml-0 sm:mr-0 pt-2 sm:mt-0 text-black dark:text-white bg-white dark:bg-dark">
-                        Design and Development Skills
+                        Technologies I&apos;ve worked with
                     </div>
                     <div className="mt-6 pl-4 pr-4 sm:pl-0 sm:pr-0 grid sm:grid-cols-4 grid-cols-2 gap-6">
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
-                            <Image src={js_white} alt="" className="w-16 h-32 hidden dark:block"/>
-                            <Image src={js} alt="" className="w-16 h-32 dark:hidden"/>
+                            className="flex justify-center items-center border border-warning rounded-lg grow">
+                            <Image src={js} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
-                            <Image src={react_white} alt="" className="w-16 h-32 hidden dark:block"/>
-                            <Image src={react} alt="" className="w-16 h-32 dark:hidden"/>
+                            className="flex justify-center items-center border border-blue-300 rounded-lg grow">
+                            <Image src={react} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
-                            <Image src={java_white} alt="" className="w-16 h-32 hidden dark:block"/>
-                            <Image src={java} alt="" className="w-16 h-32 dark:hidden"/>
+                            className="flex justify-center items-center border border-orange-400 rounded-lg grow">
+                            <Image src={java} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
-                            <Image src={kotlin_white} alt="" className="w-16 h-32 hidden dark:block"/>
-                            <Image src={kotlin} alt="" className="w-16 h-32 dark:hidden"/>
+                            className="flex justify-center items-center border border-blue-400 rounded-lg grow">
+                            <Image src={kotlin} alt="" className="w-16 h-32"/>
                         </div>
                         {/*<div*/}
                         {/*    className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">*/}
@@ -74,19 +70,16 @@ const Experience = () => {
                             <Image src={next} alt="" className="w-16 h-32 dark:hidden"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
-                            <Image src={html_white} alt="" className="w-16 h-32 hidden dark:block"/>
-                            <Image src={html} alt="" className="w-16 h-32 dark:hidden"/>
+                            className="flex justify-center items-center border border-red-500 rounded-lg grow">
+                            <Image src={html} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
-                            <Image src={css_white} alt="" className="w-16 h-32 hidden dark:block"/>
-                            <Image src={css} alt="" className="w-16 h-32 dark:hidden"/>
+                            className="flex justify-center items-center border border-blue-500 rounded-lg grow">
+                            <Image src={css} alt="" className="w-16 h-32"/>
                         </div>
                         <div
-                            className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
-                            <Image src={tw_white} alt="" className="w-16 h-32 hidden dark:block"/>
-                            <Image src={tw} alt="" className="w-16 h-32 dark:hidden"/>
+                            className="flex justify-center items-center border border-accent rounded-lg grow">
+                            <Image src={tw} alt="" className="w-16 h-32"/>
                         </div>
                         {/*<div*/}
                         {/*    className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">*/}
@@ -106,13 +99,11 @@ const Experience = () => {
                         </div>
                         <div
                             className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
-                            <Image src={ws_white} alt="" className="w-16 h-32 hidden dark:block"/>
-                            <Image src={ws} alt="" className="w-16 h-32 dark:hidden"/>
+                            <Image src={ws} alt="" className="w-16 h-32"/>
                         </div>
                         <div
                             className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">
-                            <Image src={vscode_white} alt="" className="w-16 h-32 hidden dark:block"/>
-                            <Image src={vscode} alt="" className="w-16 h-32 dark:hidden"/>
+                            <Image src={vscode} alt="" className="w-16 h-32"/>
                         </div>
                         <div
                             className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow">

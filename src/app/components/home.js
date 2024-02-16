@@ -12,12 +12,12 @@ import {useRouter} from "next/navigation";
 const Home = () => {
     const router = useRouter()
     const gotoLinkedin = () => {
-        router.push('https://www.linkedin.com/in/min-thant-2620411b3/')
+        router.push('https://www.linkedin.com/in/min-thant-mg-2620411b3/')
     }
     const gotoGithub = () => {
         router.push('https://github.com/Minthantmg')
     }
-    const cvUrl = 'https://drive.google.com/file/d/1jduqnpmyV-5f-7-nm412ABTRCOXAYLiS/view?usp=drivesdk';
+    const cvUrl = 'https://drive.google.com/file/d/16lagJ5ziKp5gL-CLiFIXcGJxmGd6yYUA/view';
 
     const downloadResume = (url) => {
         const fileName = url.split('/').pop()
