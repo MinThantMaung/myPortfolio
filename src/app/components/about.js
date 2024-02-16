@@ -44,9 +44,9 @@ const About = () => {
                         <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white fade-in">
                             My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.
                         </div>
-                        <div className="text-sm sm:mt-6 underline text-blue-500 cursor-pointer" onClick={goToMoreAbout}>
-                            -&gt; more about me
-                        </div>
+                        {/*<div className="text-sm sm:mt-6 underline text-blue-500 cursor-pointer" onClick={goToMoreAbout}>*/}
+                        {/*    -&gt; more about me*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>

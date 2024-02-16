@@ -50,7 +50,7 @@ const Projects = () => {
                     </div>
                     <div
                         className="font-bold text-2xl ml-4 mr-2 sm:ml-0 sm:mr-0 mt-2 sm:mt-0 text-black dark:text-white">
-                        Each project is a unique piece of development
+                        Check out some of my work here
                     </div>
                     <div
                         className="shadow-lg rounded-lg flex flex-col sm:flex-row ml-2 mr-2 sm:ml-0 sm:mr-0 pb-4 pt-4 pl-4 pr-4 sm:pr-0 mt-12">

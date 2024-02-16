@@ -18,7 +18,7 @@ const Timeline = () => {
     }, []);
     return (
         <>
-            <div className="flex justify-center w-full h-full bg-white dark:bg-dark text-gray-700 dark:text-white md:pl-4 md:pr-4">
+            <div className="flex justify-center w-full h-full bg-white dark:bg-dark text-gray-700 dark:text-white">
                 <div className="w-full max-w-5xl">
                     <div
                         className="font-bold text-blue-600 sm:pt-28 pt-20 pl-4 pr-2 sm:ml-0 sm:mr-0 bg-white dark:bg-dark">
@@ -26,7 +26,7 @@ const Timeline = () => {
                     </div>
                     <div
                         className="font-bold text-2xl pl-4 pr-2 sm:ml-0 sm:mr-0 pt-2 sm:mt-0 text-black dark:text-white bg-white dark:bg-dark">
-                        Each job is a unique piece of my life
+                        My Career Journey
                     </div>
                     <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical pt-10 sm:pt-16 pl-2 sm:pl-0">
                         <li>

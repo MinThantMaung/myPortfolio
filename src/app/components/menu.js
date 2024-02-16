@@ -22,6 +22,9 @@ const Menu = ({ onClose }) => {
                 <a href="#timeline" className="font-bold text-3xl mt-6" onClick={handleMenuClose}>
                     Career
                 </a>
+                <a href="#skill" className="font-bold text-3xl mt-6" onClick={handleMenuClose}>
+                    Skills
+                </a>
                 <a href="#project" className="font-bold text-3xl mt-6" onClick={handleMenuClose}>
                     Projects
                 </a>
