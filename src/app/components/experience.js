@@ -91,7 +91,7 @@ const Experience = () => {
                         className="font-bold text-2xl pl-4 sm:pl-0 pr-2 sm:ml-0 sm:mr-0 sm:pt-14 pt-12 sm:mt-0 text-black dark:text-white bg-white dark:bg-dark">Tools
                         I use
                     </div>
-                    <div className="mt-6 pl-4 pr-4 sm:pl-0 sm:pr-0 grid sm:grid-cols-4 grid-cols-2 gap-4 sm:pb-10 pb-4">
+                    <div className="mt-6 pl-4 pr-4 sm:pl-0 sm:pr-0 grid sm:grid-cols-4 grid-cols-2 gap-6 sm:pb-10 pb-4">
                         <div
                             className="flex justify-center items-center border border-dark dark:border-white rounded-lg grow fade-in-left">
                             <Image src={macos_white} alt="" className="w-16 h-32 hidden dark:block"/>
