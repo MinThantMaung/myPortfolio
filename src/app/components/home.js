@@ -65,7 +65,7 @@ const Home = () => {
                             <div
                                 className="text-gray-600 sm:text-lg leading-tight sm:mt-4 dark:text-white text-center text-lg ml-6 mr-6 sm:ml-44 sm:mr-44 mt-4"
                             >
-                                If you interest more about me <span onClick={() => {
+                                If you want to learn more about me, <span onClick={() => {
                                 downloadResume(cvUrl)
                             }} className="underline hover:text-blue-500 cursor-pointer">click here</span>
                             </div>
