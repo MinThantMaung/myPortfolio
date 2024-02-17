@@ -34,14 +34,14 @@ const About = () => {
                         <div className="text-[25px] font-bold sm:mt-2 mt-2">
                             Front-end Developer
                         </div>
-                        <div className="text-[25px] font-bold fade-in">
+                        <div className="text-[25px] font-bold">
                             based in Yangon, Myanmar
                         </div>
-                        <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white fade-in">
+                        <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white">
                             Hey, my name is Min Thant Mg, and I&apos;m a Frontend Developer. My passion is to create and
                             develop a clean UI/UX for my users.
                         </div>
-                        <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white fade-in">
+                        <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white">
                             My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.
                         </div>
                         {/*<div className="text-sm sm:mt-6 underline text-blue-500 cursor-pointer" onClick={goToMoreAbout}>*/}
