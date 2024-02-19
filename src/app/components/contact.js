@@ -72,29 +72,39 @@ const Contact = () => {
                             <div className="sm:mt-6 text-blue-500 text-start ml-4 sm:ml-0">
                                 Let&apos;s create something together
                             </div>
+                            <div className="sm:mt-6 text-blue-500 text-start ml-4 sm:ml-0">
+                                Location
+                            </div>
                             <div className="sm:w-fit w-full flex justify-center items-center mt-10 sm:mt-0">
-                                <div
-                                    className="flex sm:flex-row mt-0 sm:mt-10 border shadow-lg dark:border-white sm:p-6 p-6 rounded-lg">
-                                    <div>
-                                        <div className="shadow-lg rounded-full p-3">
-                                            <Image src={map} alt=""/>
-                                        </div>
-                                    </div>
-                                    <div className="sm:ml-14 ml-4 sm:mt-0">
-                                        <div className="font-bold text-lg text-black dark:text-white">
-                                            Location
-                                        </div>
-                                        <div
-                                            className="sm:mt-1 mt-2 text-gray-600 hover:text-blue-600 cursor-pointer dark:text-white"
-                                            onClick={openLocation}>
-                                            Yangon, Myanmar
-                                        </div>
-                                    </div>
+                                {/*<div*/}
+                                {/*    className="flex sm:flex-row mt-0 sm:mt-10 border shadow-lg dark:border-white sm:p-6 p-6 rounded-lg">*/}
+                                {/*    <div>*/}
+                                {/*        <div className="shadow-lg rounded-full p-3">*/}
+                                {/*            <Image src={map} alt=""/>*/}
+                                {/*        </div>*/}
+                                {/*    </div>*/}
+                                {/*    <div className="sm:ml-14 ml-4 sm:mt-0">*/}
+                                {/*        <div className="font-bold text-lg text-black dark:text-white">*/}
+                                {/*            Location*/}
+                                {/*        </div>*/}
+                                {/*        <div*/}
+                                {/*            className="sm:mt-1 mt-2 text-gray-600 hover:text-blue-600 cursor-pointer dark:text-white"*/}
+                                {/*            onClick={openLocation}>*/}
+                                {/*            Yangon, Myanmar*/}
+                                {/*        </div>*/}
+                                {/*    </div>*/}
+                                {/*</div>*/}
+                                <div>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488799.6758948432!2d95.85191337417017!3d16.838879501049373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon!5e0!3m2!1sen!2smm!4v1708319147784!5m2!1sen!2smm"
+                                        width="400" height="300" allowFullScreen="" loading="lazy"
+                                        referrerPolicy="no-referrer-when-downgrade"
+                                     className="rounded-lg mt-2"></iframe>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <div className="rounded-lg shadow-lg p-6 mt-10 sm:mt-0 mx-2">
+                            <div className="rounded-lg shadow-lg p-6 mt-10 sm:mt-20 mx-2">
                                 <div className="text-xl font-bold text-start">
                                     Send us a message
                                 </div>
@@ -109,9 +119,11 @@ const Contact = () => {
                                     <input type="text" className="bg-white dark:bg-dark" placeholder="Subject"/>
                                 </label>
                                 <textarea placeholder="Description"
-                                          className="textarea textarea-bordered textarea-lg w-full bg-white dark:bg-dark sm:mt-4 mt-4"></textarea>
+                                          className="textarea textarea-bordered textarea-md w-full bg-white dark:bg-dark sm:mt-4 mt-4"></textarea>
                                 <div>
-                                    <button className="w-full py-4 bg-blue-500 dark:text-white rounded-lg sm:mt-1 mt-2">Send</button>
+                                    <button
+                                        className="w-full py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2">Send
+                                    </button>
                                 </div>
                             </div>
                         </div>
