@@ -23,10 +23,10 @@ const Footer = () => {
                     </div>
                     <div className="flex">
                         <div onClick={gotoLinkedin} className="cursor-pointer">
-                            <Image src={linkedin} alt="" className="w-10 h-10"/>
+                            <Image src={linkedin} alt="" className="w-6 h-6"/>
                         </div>
                         <div className="sm:ml-6 ml-6 cursor-pointer" onClick={gotoGithub}>
-                            <Image src={github} alt="" className="w-10 h-10"/>
+                            <Image src={github} alt="" className="w-6 h-6"/>
                         </div>
                     </div>
                 </div>

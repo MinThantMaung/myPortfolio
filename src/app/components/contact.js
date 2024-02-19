@@ -72,10 +72,10 @@ const Contact = () => {
                             <div className="sm:mt-6 text-blue-500 text-start ml-4 sm:ml-0">
                                 Let&apos;s create something together
                             </div>
-                            <div className="sm:mt-6 text-blue-500 text-start ml-4 sm:ml-0">
+                            <div className="sm:mt-6 mt-4 text-blue-500 text-start ml-4 sm:ml-0">
                                 Location
                             </div>
-                            <div className="sm:w-fit w-full flex justify-center items-center mt-10 sm:mt-0">
+                            <div className="sm:w-fit w-full flex justify-center items-center mt-6 sm:mt-0">
                                 {/*<div*/}
                                 {/*    className="flex sm:flex-row mt-0 sm:mt-10 border shadow-lg dark:border-white sm:p-6 p-6 rounded-lg">*/}
                                 {/*    <div>*/}
@@ -99,7 +99,7 @@ const Contact = () => {
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488799.6758948432!2d95.85191337417017!3d16.838879501049373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon!5e0!3m2!1sen!2smm!4v1708319147784!5m2!1sen!2smm"
                                         width="400" height="300" allowFullScreen="" loading="lazy"
                                         referrerPolicy="no-referrer-when-downgrade"
-                                     className="rounded-lg mt-2"></iframe>
+                                     className="rounded-lg sm:mt-2 pl-16 pr-16 sm:pl-0 sm:pr-0"></iframe>
                                 </div>
                             </div>
                         </div>
