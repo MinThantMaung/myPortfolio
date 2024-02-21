@@ -1,10 +1,25 @@
 'use client'
-import React from 'react';
+import React, {useState} from 'react';
 import map from '../../../public/location.svg'
 import email from '../../../public/email.svg'
 import Image from "next/image";
 
 const Contact = () => {
+    const [email, setEmail] = useState('')
+    const [subject, setSubject] = useState('')
+    const [body, setBody] = useState('')
+    const [toggle, setToggle] = useState(false)
+
+    const sendEmail = () => {
+        setSubject('')
+        setBody('')
+        setEmail('')
+        setToggle(true)
+
+        setTimeout(() => {
+            setToggle(false);
+        }, 5000);
+    }
     const openGmail = () => {
         const emailAddress = 'minthantmg169@mail.com';
         const mailtoLink = `mailto:${emailAddress}`;
@@ -67,19 +82,29 @@ const Contact = () => {
                                 <label
                                     className="input input-bordered flex items-center gap-2 bg-white dark:bg-dark sm:mt-4 mt-4">
                                     Email
-                                    <input type="text" className="bg-white dark:bg-dark" placeholder="user@gmail.com"/>
+                                    <input type="text" className="bg-white dark:bg-dark" placeholder="user@gmail.com"
+                                           value={email} onChange={(e) => setEmail(e.target.value)}/>
                                 </label>
                                 <label
                                     className="input input-bordered flex items-center gap-2 bg-white dark:bg-dark sm:mt-4 mt-4">
                                     Subject
-                                    <input type="text" className="bg-white dark:bg-dark" placeholder="Subject"/>
+                                    <input type="text" className="bg-white dark:bg-dark" placeholder="Subject"
+                                           value={subject} onChange={(e) => setSubject(e.target.value)}/>
                                 </label>
                                 <textarea placeholder="Description"
-                                          className="textarea textarea-bordered textarea-md w-full bg-white dark:bg-dark sm:mt-4 mt-4"></textarea>
+                                          className="textarea textarea-bordered textarea-md w-full bg-white dark:bg-dark sm:mt-4 mt-4"
+                                          value={body} onChange={(e) => setBody(e.target.value)}></textarea>
                                 <div>
                                     <button
-                                        className="w-full py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2">Send
+                                        className="w-full py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2" onClick={sendEmail}>Send
                                     </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={toggle ? '' : 'hidden'}>
+                            <div className="toast">
+                                <div className="alert alert-warning">
+                                    <span>This service is currently not available </span>
                                 </div>
                             </div>
                         </div>
