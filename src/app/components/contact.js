@@ -1,14 +1,15 @@
 'use client'
 import React, {useState} from 'react';
 import map from '../../../public/location.svg'
-import email from '../../../public/email.svg'
 import Image from "next/image";
+import {useEmail} from "../../../hooks/useEmail";
 
 const Contact = () => {
     const [email, setEmail] = useState('')
     const [subject, setSubject] = useState('')
     const [body, setBody] = useState('')
     const [toggle, setToggle] = useState(false)
+
 
     const sendEmail = () => {
         setSubject('')
@@ -20,12 +21,6 @@ const Contact = () => {
             setToggle(false);
         }, 5000);
     }
-    const openGmail = () => {
-        const emailAddress = 'minthantmg169@mail.com';
-        const mailtoLink = `mailto:${emailAddress}`;
-
-        window.open(mailtoLink);
-    };
 
     const openLocation = () => {
         window.open('https://www.google.com/maps/place/Yangon/@16.8390767,96.0167614,11z/data=!4m15!1m8!3m7!1s0x30c1949e223e196b:0x56fbd271f8080bb4!2sYangon!3b1!8m2!3d16.840939!4d96.173526!16zL20vMGZzNTQ!3m5!1s0x30c1949e223e196b:0x56fbd271f8080bb4!8m2!3d16.840939!4d96.173526!16zL20vMGZzNTQ?entry=ttu')
