@@ -9,17 +9,28 @@ const Contact = () => {
     const [subject, setSubject] = useState('')
     const [body, setBody] = useState('')
     const [toggle, setToggle] = useState(false)
+    const [isLoading, setIsLoading] = useState(false)
+    const [errorMessage, setErrorMessage] = useState(null)
+
+    const { useSendEmail } = useEmail()
+    const {mutateAsync:emailRes,isPending} = useSendEmail(email)
 
 
-    const sendEmail = () => {
-        setSubject('')
-        setBody('')
-        setEmail('')
-        setToggle(true)
-
-        setTimeout(() => {
-            setToggle(false);
-        }, 5000);
+    const sendEmail = async (e) => {
+        e.preventDefault()
+        try {
+            const response = await emailRes({email,subject,body})
+            console.log("successful " + response)
+            setSubject('')
+            setBody('')
+            setEmail('')
+        }catch (e){
+            console.log(e)
+            setToggle(true)
+            setTimeout(() => {
+                setToggle(false);
+            }, 5000);
+        }
     }
 
     const openLocation = () => {
