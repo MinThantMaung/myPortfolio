@@ -1,5 +1,5 @@
 import { useMutation } from "@tanstack/react-query";
-import { sendEmail } from "../api/email";
+import { sendEmail } from "../apiCallback/email";
 
 const useSendEmail = () => {
     return useMutation({
