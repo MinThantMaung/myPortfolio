@@ -1,18 +1,18 @@
-import {sendEmail} from "../api/email";
-import {useMutation} from "@tanstack/react-query";
+import { useMutation } from "@tanstack/react-query";
+import { sendEmail } from "../api/email";
 
-const useSendEmail = (email, subject, body) => {
+const useSendEmail = () => {
     return useMutation({
-        mutationKey: ['post', 'email',  email, subject, body],
-        mutationFn: sendEmail({email, subject, body}),
+        mutationKey: ["post", "email"],
+        mutationFn: sendEmail,
         onError: (error) => {
-            console.error("Error updating user:", error)
+            console.error("Error updating user:", error);
         },
-    })
-}
+    });
+};
 
 export const useEmail = () => {
     return {
         useSendEmail,
-    }
-}
+    };
+};
