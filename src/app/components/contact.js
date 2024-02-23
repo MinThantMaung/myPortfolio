@@ -9,8 +9,7 @@ const Contact = () => {
     const [subject, setSubject] = useState('')
     const [body, setBody] = useState('')
     const [toggle, setToggle] = useState(false)
-    const [isLoading, setIsLoading] = useState(false)
-    const [errorMessage, setErrorMessage] = useState(null)
+    const [eToggle, setEToggle] = useState(false)
 
     const { useSendEmail } = useEmail()
     const {mutateAsync:emailRes,isPending} = useSendEmail(email)
@@ -18,6 +17,14 @@ const Contact = () => {
 
     const sendEmail = async (e) => {
         e.preventDefault()
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!regex.test(email)) {
+            setEToggle(true)
+            setTimeout(() => {
+                setEToggle(false);
+            }, 5000);
+            return;
+        }
         try {
             const response = await emailRes({email,subject,body})
             console.log("successful " + response)
@@ -85,32 +92,49 @@ const Contact = () => {
                                 <div className="text-xl font-bold text-start">
                                     Send us a message
                                 </div>
-                                <label
-                                    className="input input-bordered flex items-center gap-2 bg-white dark:bg-dark sm:mt-4 mt-4">
-                                    Email
-                                    <input type="text" className="bg-white dark:bg-dark" placeholder="user@gmail.com"
-                                           value={email} onChange={(e) => setEmail(e.target.value)}/>
-                                </label>
-                                <label
-                                    className="input input-bordered flex items-center gap-2 bg-white dark:bg-dark sm:mt-4 mt-4">
-                                    Subject
-                                    <input type="text" className="bg-white dark:bg-dark" placeholder="Subject"
-                                           value={subject} onChange={(e) => setSubject(e.target.value)}/>
-                                </label>
-                                <textarea placeholder="Description"
-                                          className="textarea textarea-bordered textarea-md w-full bg-white dark:bg-dark sm:mt-4 mt-4"
-                                          value={body} onChange={(e) => setBody(e.target.value)}></textarea>
-                                <div>
-                                    <button
-                                        className="w-full py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2" onClick={sendEmail}>Send
-                                    </button>
-                                </div>
+                                <form method="POST" onSubmit={sendEmail}>
+                                    <label
+                                        className="input input-bordered flex items-center gap-2 bg-white dark:bg-dark sm:mt-4 mt-4">
+                                        Email
+                                        <input type="text" className="bg-white dark:bg-dark" placeholder="user@gmail.com"
+                                               value={email} onChange={(e) => setEmail(e.target.value)} required={true}/>
+                                    </label>
+                                    <label
+                                        className="input input-bordered flex items-center gap-2 bg-white dark:bg-dark sm:mt-4 mt-4">
+                                        Subject
+                                        <input type="text" className="bg-white dark:bg-dark" placeholder="Subject"
+                                               value={subject} onChange={(e) => setSubject(e.target.value)} required={true}/>
+                                    </label>
+                                    <textarea placeholder="Description"
+                                              className="textarea textarea-bordered textarea-md w-full bg-white dark:bg-dark sm:mt-4 mt-4"
+                                              value={body} onChange={(e) => setBody(e.target.value)} required={true}></textarea>
+                                    <div>
+                                        {isPending ? (
+                                            <button className="w-full h-14 py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2">
+                                                <span className="loading loading-spinner loading-sm text-white"></span>
+                                            </button>
+                                        ) : (
+                                            <button
+                                                className="w-full h-14 py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2"
+                                            >
+                                                Send
+                                            </button>
+                                        )}
+                                    </div>
+                                </form>
                             </div>
                         </div>
                         <div className={toggle ? '' : 'hidden'}>
                             <div className="toast">
                                 <div className="alert alert-warning">
                                     <span>This service is currently not available </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={eToggle ? '' : 'hidden'}>
+                            <div className="toast">
+                                <div className="alert alert-error">
+                                    <span className="text-white">Please enter a valid email address!</span>
                                 </div>
                             </div>
                         </div>
