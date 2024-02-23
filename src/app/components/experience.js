@@ -19,7 +19,7 @@ const Experience = () => {
                     </div>
                     <div className="mt-6 sm:mt-16 pl-4 pr-4 sm:pl-0 sm:pr-0 grid sm:grid-cols-3 grid-cols-1 gap-6">
                         <div>
-                            <div className="flex flex-col justify-center items-center">
+                            <div className="flex flex-col justify-center items-center fade-in-left">
                                 <div className="text-blue-500 font-bold">
                                     FrontEnd
                                 </div>
@@ -245,7 +245,7 @@ const Experience = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="flex flex-col justify-center items-center sm:ml-4 mt-2 sm:mt-0 ">
+                            <div className="flex flex-col justify-center items-center sm:ml-4 mt-2 sm:mt-0 fade-in">
                                 <div className="text-blue-500 font-bold">
                                     Tools
                                 </div>
