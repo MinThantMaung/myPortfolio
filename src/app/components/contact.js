@@ -10,6 +10,7 @@ const Contact = () => {
     const [body, setBody] = useState('')
     const [toggle, setToggle] = useState(false)
     const [eToggle, setEToggle] = useState(false)
+    const [successAlert,setSuccessAlert] = useState(false)
 
     const { useSendEmail } = useEmail()
     const {mutateAsync:emailRes,isPending} = useSendEmail(email)
@@ -27,10 +28,13 @@ const Contact = () => {
         }
         try {
             const response = await emailRes({email,subject,body})
-            console.log("successful " + response)
+            setSuccessAlert(true)
             setSubject('')
             setBody('')
             setEmail('')
+            setTimeout(() => {
+                setSuccessAlert(false);
+            }, 5000);
         }catch (e){
             console.log(e)
             setToggle(true)
@@ -96,21 +100,26 @@ const Contact = () => {
                                     <label
                                         className="input input-bordered flex items-center gap-2 bg-white dark:bg-dark sm:mt-4 mt-4">
                                         Email
-                                        <input type="text" className="bg-white dark:bg-dark" placeholder="user@gmail.com"
-                                               value={email} onChange={(e) => setEmail(e.target.value)} required={true}/>
+                                        <input type="text" className="bg-white dark:bg-dark"
+                                               placeholder="user@gmail.com"
+                                               value={email} onChange={(e) => setEmail(e.target.value)}
+                                               required={true}/>
                                     </label>
                                     <label
                                         className="input input-bordered flex items-center gap-2 bg-white dark:bg-dark sm:mt-4 mt-4">
                                         Subject
                                         <input type="text" className="bg-white dark:bg-dark" placeholder="Subject"
-                                               value={subject} onChange={(e) => setSubject(e.target.value)} required={true}/>
+                                               value={subject} onChange={(e) => setSubject(e.target.value)}
+                                               required={true}/>
                                     </label>
                                     <textarea placeholder="Description"
                                               className="textarea textarea-bordered textarea-md w-full bg-white dark:bg-dark sm:mt-4 mt-4"
-                                              value={body} onChange={(e) => setBody(e.target.value)} required={true}></textarea>
+                                              value={body} onChange={(e) => setBody(e.target.value)}
+                                              required={true}></textarea>
                                     <div>
                                         {isPending ? (
-                                            <button className="w-full h-14 py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2">
+                                            <button
+                                                className="w-full h-14 py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2">
                                                 <span className="loading loading-spinner loading-sm text-white"></span>
                                             </button>
                                         ) : (
@@ -135,6 +144,13 @@ const Contact = () => {
                             <div className="toast">
                                 <div className="alert alert-error">
                                     <span className="text-white">Please enter a valid email address!</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={successAlert ? '' : 'hidden'}>
+                            <div className="toast">
+                                <div className="alert alert-success">
+                                    <span className="text-white">Successfully sent</span>
                                 </div>
                             </div>
                         </div>
