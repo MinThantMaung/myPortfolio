@@ -7,7 +7,6 @@ require('dotenv').config(); // Load environment variables from .env file
 
 const app = express();
 
-// Use a dynamic port assigned at runtime or from an environment variable:
 const port = process.env.PORT || 8000;
 
 // Body parser configuration for JSON and URL-encoded payloads:
