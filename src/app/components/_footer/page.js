@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
-import github from '../../../public/github.svg'
-import linkedin from '../../../public/linkedin.svg'
+import github from '../../../../public/github.svg'
+import linkedin from '../../../../public/linkedin.svg'
 import Image from "next/image";
 import {useRouter} from "next/navigation";
 
