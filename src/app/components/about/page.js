@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import photo from '../../../public/mac.jpg'
+import photo from '../../../../public/mac.jpg'
 import Image from "next/image";
 import {useRouter} from "next/navigation";
 

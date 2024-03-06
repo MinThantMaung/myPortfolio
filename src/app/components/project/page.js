@@ -1,14 +1,14 @@
 'use client'
 import React from 'react';
 import Image from "next/image";
-import github from '../../../public/github_solid.svg'
-import github_light from '../../../public/github_solod_white.svg'
-import popup from '../../../public/popup.svg'
-import popup_light from '../../../public/popup_white.svg'
-import coin from '../../../public/coindom.png'
-import yts from '../../../public/yts_01.png'
-import solar from '../../../public/solor.png'
-import product from '../../../public/productvity.png'
+import github from '../../../../public/github_solid.svg'
+import github_light from '../../../../public/github_solod_white.svg'
+import popup from '../../../../public/popup.svg'
+import popup_light from '../../../../public/popup_white.svg'
+import coin from '../../../../public/coindom.png'
+import yts from '../../../../public/yts_01.png'
+import solar from '../../../../public/solor.png'
+import product from '../../../../public/productvity.png'
 import {useRouter} from "next/navigation";
 
 const Projects = () => {

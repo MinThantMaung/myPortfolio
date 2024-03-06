@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
-import mark from '../../../public/mark.png'
-import success from '../../../public/success.png'
+import mark from '../../../../public/mark.png'
+import success from '../../../../public/success.png'
 
 const Experience = () => {
     return (
@@ -139,7 +139,7 @@ const Experience = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-center items-center sm:ml-4 mt-2 sm:mt-0 ">
+                        <div className="flex flex-col justify-center items-center sm:ml-4 mt-2 sm:mt-0">
                             <div className="text-blue-500 font-bold">
                                 BackEnd
                             </div>
