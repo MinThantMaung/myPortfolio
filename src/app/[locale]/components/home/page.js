@@ -1,13 +1,12 @@
 'use client'
 import React, {useEffect, useState} from 'react';
-import githubLight from '../../../../public/github_outline_black.svg';
-import githubDark from '../../../../public/github.png';
+import githubLight from '../../../../../public/github_outline_black.svg';
+import githubDark from '../../../../../public/github.png';
 import Image from "next/image";
 import {TypeAnimation} from "react-type-animation";
-import linkedinLight from '../../../../public/linkedin_outline_white.svg';
-import linkedinDark from '../../../../public/linkedin_outline_black.svg';
+import linkedinLight from '../../../../../public/linkedin_outline_white.svg';
+import linkedinDark from '../../../../../public/linkedin_outline_black.svg';
 import {useRouter} from "next/navigation";
-
 
 const Home = () => {
     const router = useRouter()

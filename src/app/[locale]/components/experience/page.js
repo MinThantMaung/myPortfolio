@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
-import mark from '../../../../public/mark.png'
-import success from '../../../../public/success.png'
+import mark from '../../../../../public/mark.png'
+import success from '../../../../../public/success.png'
 
 const Experience = () => {
     return (

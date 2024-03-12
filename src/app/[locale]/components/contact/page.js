@@ -1,8 +1,8 @@
 'use client'
 import React, {useState} from 'react';
-import map from '../../../../public/location.svg'
+import map from '../../../../../public/location.svg'
 import Image from "next/image";
-import {useEmail} from "../../../../hooks/useEmail";
+import {useEmail} from "../../../../../hooks/useEmail";
 
 const Contact = () => {
     const [email, setEmail] = useState('')

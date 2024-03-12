@@ -1,9 +1,9 @@
 'use client'
 import React from 'react';
 import Image from "next/image";
-import menu from '../../../../public/hamberger.svg'
-import menu_light from '../../../../public/hamberger_light.svg'
-import Theme from "@/app/components/theme";
+import menu from '../../../../../public/hamberger.svg'
+import menu_light from '../../../../../public/hamberger_light.svg'
+import Theme from "@/app/[locale]/components/theme";
 import {useRouter} from "next/navigation";
 
 const Nav = ({onOpen}) => {

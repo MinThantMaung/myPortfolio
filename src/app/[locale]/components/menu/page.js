@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import close from '../../../../public/close.svg'
+import close from '../../../../../public/close.svg'
 
 const Menu = ({ onClose }) => {
     const handleMenuClose = () => {

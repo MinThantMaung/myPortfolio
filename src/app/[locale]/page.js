@@ -1,17 +1,18 @@
 'use client'
 import React, {useState} from 'react';
-import Home from "@/app/components/home/page";
-import About from "@/app/components/about/page";
-import Contact from "@/app/components/contact/page";
-import Projects from "@/app/components/project/page";
-import Nav from "@/app/components/_nav/page";
-import Footer from "@/app/components/_footer/page";
-import Menu from "@/app/components/menu/page";
-import Timeline from "@/app/components/timeline/page";
-import Experience from "@/app/components/experience/page";
+import Home from "@/app/[locale]/components/home/page";
+import About from "@/app/[locale]/components/about/page";
+import Contact from "@/app/[locale]/components/contact/page";
+import Projects from "@/app/[locale]/components/project/page";
+import Nav from "@/app/[locale]/components/_nav/page";
+import Footer from "@/app/[locale]/components/_footer/page";
+import Menu from "@/app/[locale]/components/menu/page";
+import Experience from "@/app/[locale]/components/experience/page";
+import Timeline from "@/app/[locale]/components/timeline";
+import {useTranslations} from 'next-intl';
+
 const Page = () => {
     const [display, setDisplay] = useState(false);
-
     const handleMenuClick = (event) => {
         // event.preventDefault();
         setDisplay(!display);
