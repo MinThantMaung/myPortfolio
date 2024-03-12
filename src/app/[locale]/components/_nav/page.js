@@ -5,9 +5,11 @@ import menu from '../../../../../public/hamberger.svg'
 import menu_light from '../../../../../public/hamberger_light.svg'
 import Theme from "@/app/[locale]/components/theme";
 import {useRouter} from "next/navigation";
+import {useTranslations} from 'next-intl';
 
 const Nav = ({onOpen}) => {
     const router = useRouter()
+    const t = useTranslations('Index');
     const handleMenuOpen = (event) => {
         onOpen && onOpen(event);
     };
@@ -28,7 +30,7 @@ const Nav = ({onOpen}) => {
                     </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#home">
-                            Home
+                            {t('nav_home')}
                         </a>
                     </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
