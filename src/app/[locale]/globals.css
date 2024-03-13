@@ -33,4 +33,8 @@
     -ms-transform: scale(1.3);
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 /* END: General styles */
