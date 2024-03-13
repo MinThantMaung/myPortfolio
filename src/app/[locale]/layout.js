@@ -34,7 +34,10 @@ export default async function RootLayout({
             <head>
                 <title>Min Thant Mg | Front-end Developer</title>
             </head>
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+            {children}
+            <Analytics />
+            </body>
             </html>
             </NextIntlClientProvider>
         </QueryClientProvider>
