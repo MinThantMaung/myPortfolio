@@ -96,7 +96,7 @@ const Nav = ({onOpen}) => {
                                     <div>
                                         es
                                     </div>
-                                    <div className="flex ml-[6px] mt-[2px]">
+                                    <div className="flex ml-[8px] mt-[2px]">
                                         <Image src={spain} alt="flag_spain" className="w-4 h-4"/>
                                     </div>
                                 </div>
