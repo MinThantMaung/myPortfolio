@@ -40,7 +40,7 @@ const Nav = ({onOpen}) => {
                     </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#about">
-                            About
+                            {t('nav_about')}
                         </a>
                     </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
