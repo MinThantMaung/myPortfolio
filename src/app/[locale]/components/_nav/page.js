@@ -45,7 +45,7 @@ const Nav = ({onOpen}) => {
                     </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#timeline">
-                            Career
+                            {t('nav_career')}
                         </a>
                     </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
