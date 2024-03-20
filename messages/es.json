@@ -3,6 +3,9 @@
     "nav_home": "Hogar",
     "nav_career" : "Carrera",
     "nav_about": "Acerca de",
+    "nav_skill": "Habilidades",
+    "nav_project": "Proyectos",
+    "nav_contact": "Contacto",
     "home_detail": "Hola, soy Min Thant Mg. Un apasionado desarrollador front-end de React con sede en Yangon, Myanmar, y un apasionado de la creación de interfaces de usuario perfectas. Desde componentes interactivos hasta un rendimiento de primer nivel, convierto ideas en experiencias digitales atractivas."
   }
 }

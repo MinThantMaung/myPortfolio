@@ -50,17 +50,17 @@ const Nav = ({onOpen}) => {
                     </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#skill">
-                            Skills
+                            {t('nav_skill')}
                         </a>
                     </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#project">
-                            Projects
+                            {t('nav_project')}
                         </a>
                     </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#contact">
-                            Contact
+                            {t('nav_contact')}
                         </a>
                     </div>
                     <div className="dropdown dropdown-bottom dropdown-end">
