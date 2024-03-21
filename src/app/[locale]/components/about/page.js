@@ -3,9 +3,11 @@ import React, {useEffect} from 'react';
 import photo from '../../../../../public/mac.jpg'
 import Image from "next/image";
 import {useRouter} from "next/navigation";
+import {useTranslations} from "next-intl";
 
 const About = () => {
     const router = useRouter()
+    const t = useTranslations('Index');
 
     const goToMoreAbout = () =>{
         router.push('/more/moreAbout/')
@@ -39,11 +41,10 @@ const About = () => {
                             based in Yangon, Myanmar
                         </div>
                         <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white">
-                            Hey, my name is Min Thant Mg, and I&apos;m a Frontend Developer. My passion is to create and
-                            develop a clean UI/UX for my users.
+                            {t('about_detail_one')}
                         </div>
                         <div className="text-gray-600 text-[16px] sm:mt-4 mt-4 dark:text-white">
-                            My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.
+                            {t('about_detail_two')}
                         </div>
                         {/*<div className="text-sm sm:mt-6 underline text-blue-500 cursor-pointer" onClick={goToMoreAbout}>*/}
                         {/*    -&gt; more about me*/}
