@@ -18,7 +18,7 @@ const Home = () => {
     const gotoGithub = () => {
         router.push('https://github.com/Minthantmg')
     }
-    const cvUrl = 'https://drive.google.com/file/d/16lagJ5ziKp5gL-CLiFIXcGJxmGd6yYUA/view';
+    const cvUrl = 'https://drive.google.com/file/d/16w__oxddrtp7e1JFoaVUJj65q8RBcPic/view';
 
     const downloadResume = (url) => {
         const fileName = url.split('/').pop()
