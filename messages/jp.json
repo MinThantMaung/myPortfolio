@@ -1,14 +1,17 @@
 {
   "Index": {
-    "nav_home" : "ホム",
-    "nav_career" : "キャリア",
+    "nav_home": "ホム",
+    "nav_career": "キャリア",
     "nav_about": "アバウト",
     "nav_skill": "スキル",
     "nav_project": "プロジェクト",
     "nav_contact": "コンタっと",
-    "home_detail" : "こんにちは、私は Min Thant Mgです。ミャンマーのヤンゴンに拠点を置き、シームレスなユーザー インターフェイスの作成に情熱を注ぐ情熱的なフロントエンド React 開発者です。インタラクティブなコンポーネントから一流のパフォーマンスまで、アイデアを魅力的なデジタル エクスペリエンスに変えます。",
-    "home_more" : "私についてもっと知りたいなら",
-    "about_detail_one" : "こんにちは、私の名前は Min Thant Mg です。フロントエンド開発者です。 私の情熱は、ユーザーのためにクリーンな UI/UX を作成および開発することです。",
-    "about_detail_two" : "私の現在のメインスタックは、React/Next.js と Tailwind CSS および TypeScript の組み合わせです。"
+    "home_detail": "こんにちは、私は Min Thant Mgです。ミャンマーのヤンゴンに拠点を置き、シームレスなユーザー インターフェイスの作成に情熱を注ぐ情熱的なフロントエンド React 開発者です。インタラクティブなコンポーネントから一流のパフォーマンスまで、アイデアを魅力的なデジタル エクスペリエンスに変えます。",
+    "home_more": "私についてもっと知りたいなら",
+    "about_detail_one": "こんにちは、私の名前は Min Thant Mg です。フロントエンド開発者です。 私の情熱は、ユーザーのためにクリーンな UI/UX を作成および開発することです。",
+    "about_detail_two": "私の現在のメインスタックは、React/Next.js と Tailwind CSS および TypeScript の組み合わせです。",
+    "time_place_one": "University of Computer Studies,Yangon",
+    "time_job_one": "大学生",
+    "time_detail_one": "私の大学生活は、学び、発見、成長の素晴らしい旅でした。私は多くの素晴らしい人々に会い、新しいアイデアを模索し、将来の努力に役立つ貴重なスキルを開発してきました。また、私は自分の時間とスケジュールを管理する自由と柔軟性を楽しんでいますが、同時にさまざまな課題や機会にも直面しています。"
   }
 }

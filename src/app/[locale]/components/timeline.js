@@ -1,6 +1,9 @@
 import React, {useEffect} from 'react';
+import {useTranslations} from "next-intl";
 
 const Timeline = () => {
+    const t = useTranslations('Index');
+
     useEffect(() => {
         const fadeElems = document.querySelectorAll('.fade-in');
         const fadeElemsRight = document.querySelectorAll('.fade-in-left');
@@ -40,16 +43,12 @@ const Timeline = () => {
                             </div>
                             <div className="timeline-start md:text-end mb-10">
                                 <time className="font-mono italic fade-in-left">2014-2020</time>
-                                <div className="text-lg font-black fade-in-left">University Student</div>
+                                <div className="text-lg font-black fade-in-left">{t('time_job_one')}</div>
                                 <div className="font-sans text-lg fade-in-left">
                                     University of Computer Studies,Yangon
                                 </div>
                                 <div className="fade-in-left">
-                                    My university life has been a wonderful journey of learning, discovery, and
-                                    growth. I have met many amazing people, explored new ideas, and developed
-                                    valuable skills that will help me in my future endeavors. I have also enjoyed
-                                    the freedom and flexibility of managing my own time and schedule, while also
-                                    facing various challenges and opportunities.
+                                    {t('time_detail_one')}
                                 </div>
                             </div>
                             <hr/>

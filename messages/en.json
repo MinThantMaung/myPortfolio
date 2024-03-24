@@ -2,13 +2,16 @@
   "Index": {
     "nav_home": "Home",
     "nav_about": "About",
-    "nav_career" : "Career",
+    "nav_career": "Career",
     "nav_skill": "Skills",
     "nav_project": "Projects",
     "nav_contact": "Contact",
     "home_detail": "hi, I'm Min Thant Mg.A Passionate Front-end React Developer based in Yangon, Myanmar and passionate about crafting seamless user interfaces. From interactive components to top-notch performance, I turn ideas into engaging digital experiences.",
-    "home_more" : "If you want to know more about me",
-    "about_detail_one" : "Hello, my name is Min Thant Mg and I am a frontend developer. My passion is creating and developing clean UI/UX for my users.",
-    "about_detail_two" : "My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript."
+    "home_more": "If you want to know more about me",
+    "about_detail_one": "Hello, my name is Min Thant Mg and I am a frontend developer. My passion is creating and developing clean UI/UX for my users.",
+    "about_detail_two": "My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.",
+    "time_place_one": "University of Computer Studies,Yangon",
+    "time_job_one": "University Student",
+    "time_detail_one": "My university life has been a wonderful journey of learning, discovery, and growth. I have met many amazing people, explored new ideas, and developed valuable skills that will help me in my future endeavors. I have also enjoyed the freedom and flexibility of managing my own time and schedule, while also facing various challenges and opportunities."
   }
 }
