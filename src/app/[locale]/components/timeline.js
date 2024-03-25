@@ -45,7 +45,7 @@ const Timeline = () => {
                                 <time className="font-mono italic fade-in-left">2014-2020</time>
                                 <div className="text-lg font-black fade-in-left">{t('time_job_one')}</div>
                                 <div className="font-sans text-lg fade-in-left">
-                                    University of Computer Studies,Yangon
+                                    {t('time_place_one')}
                                 </div>
                                 <div className="fade-in-left">
                                     {t('time_detail_one')}
@@ -67,7 +67,7 @@ const Timeline = () => {
                                 <time className="font-mono italic fade-in">2020-2022</time>
                                 <div className="text-lg font-black fade-in">{t('time_job_two')}</div>
                                 <div className="font-sans text-lg fade-in">
-                                    HexCreative
+                                    {t('time_place_two')}
                                 </div>
                                 <div className="fade-in">
                                     {t('time_detail_two')}
@@ -87,19 +87,12 @@ const Timeline = () => {
                             </div>
                             <div className="timeline-start md:text-end mb-10">
                                 <time className="font-mono italic fade-in-left">2023 - present</time>
-                                <div className="text-lg font-black fade-in-left">Web Developer</div>
+                                <div className="text-lg font-black fade-in-left">{t('time_job_three')}</div>
                                 <div className="font-sans text-lg fade-in-left">
-                                    Global Innovation Consulting
+                                    {t('time_place_three')}
                                 </div>
                                 <div className="fade-in-left">
-                                    I am a passionate web developer with experience in working at Global Innovation
-                                    Consulting company.I have created dynamic and responsive
-                                    web applications using Java, React, and Next.js for various clients and
-                                    projects. I have a strong knowledge of web development tools and frameworks,
-                                    such as Spring Boot, Material UI, and Next.js API routes. I enjoy working on
-                                    challenging and innovative projects that require both front-end and back-end
-                                    skills. I am always eager to learn new technologies and improve my coding
-                                    skills.
+                                    {t('time_detail_three')}
                                 </div>
                             </div>
                             <hr/>
@@ -116,18 +109,12 @@ const Timeline = () => {
                             </div>
                             <div className="timeline-end mb-2 sm:mb-10 pt-1 sm:pt-0">
                                 <time className="font-mono italic fade-in">2022 - present</time>
-                                <div className="text-lg font-black fade-in">Front-end Developer</div>
+                                <div className="text-lg font-black fade-in">{t('time_job_four')}</div>
                                 <div className="font-sans text-lg fade-in">
-                                    FreeLance
+                                    {t('time_place_four')}
                                 </div>
                                 <div className="fade-in">
-                                    I am a freelance frontend developer with a passion for creating beautiful and
-                                    functional websites. I have experience in working with various clients and
-                                    projects, using HTML, CSS, JavaScript, and popular framework such as React. I
-                                    have a keen eye for design and UX, and I always strive to
-                                    deliver high-quality code that meets the client&apos;s needs and expectations. I
-                                    enjoy learning new technologies and keeping
-                                    up with the latest trends in web development.
+                                    {t('time_detail_four')}
                                 </div>
                             </div>
                             <hr/>
