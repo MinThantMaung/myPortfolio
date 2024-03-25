@@ -65,17 +65,12 @@ const Timeline = () => {
                             </div>
                             <div className="timeline-end mb-2 sm:mb-10 pt-1 sm:pt-0">
                                 <time className="font-mono italic fade-in">2020-2022</time>
-                                <div className="text-lg font-black fade-in">Android Developer</div>
+                                <div className="text-lg font-black fade-in">{t('time_job_two')}</div>
                                 <div className="font-sans text-lg fade-in">
                                     HexCreative
                                 </div>
                                 <div className="fade-in">
-                                    I am an Android developer at HexCreative Company, where I design, create, and
-                                    maintain Android-based applications using Java and Kotlin. I collaborate with
-                                    cross-functional teams to define, design, and ship new features for our clients.
-                                    I also work with outside data sources and APIs, unit-test code for robustness,
-                                    and fix bugs and improve performance.I am passionate about building innovative
-                                    and user-friendly apps that solve real-world problems.
+                                    {t('time_detail_two')}
                                 </div>
                             </div>
                             <hr/>
