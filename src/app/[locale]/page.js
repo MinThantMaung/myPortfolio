@@ -12,10 +12,12 @@ import Timeline from "@/app/[locale]/components/timeline";
 import topArrow from "../../../public/topArrow.svg"
 import topArrowDark from "../../../public/topArrowDark.svg"
 import Image from "next/image";
+import {useTranslations} from "next-intl";
 
 const Page = () => {
     const [backToTop, setBackToTop] = useState(false)
     const [display, setDisplay] = useState(false);
+    const t = useTranslations('Index');
     const handleMenuClick = (event) => {
         event.preventDefault();
         setDisplay(!display);
@@ -33,9 +35,7 @@ const Page = () => {
                 setBackToTop(false);
             }
         };
-
         window.addEventListener("scroll", handleScroll);
-
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
@@ -61,7 +61,7 @@ const Page = () => {
                                 <Image src={topArrow} alt="arrow_icon" className="hidden dark:block"/>
                                 <Image src={topArrowDark} alt="arrow_dark" className="dark:hidden block"/>
                                 <div className="sm:ml-3">
-                                   Back To Top
+                                    {t('back_to_top')}
                                 </div>
                             </div>
                         </button>
