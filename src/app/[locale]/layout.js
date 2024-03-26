@@ -4,6 +4,7 @@ import "./globals.css";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 import {NextIntlClientProvider} from "next-intl";
 import {Analytics} from "@vercel/analytics/next";
+import React from "react";
 
 const inter = Inter({subsets: ["latin"]});
 
