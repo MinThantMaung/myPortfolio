@@ -10,7 +10,6 @@ import Menu from "@/app/[locale]/components/menu/page";
 import Experience from "@/app/[locale]/components/experience/page";
 import Timeline from "@/app/[locale]/components/timeline";
 import topArrow from "../../../public/topArrow.svg"
-import topArrowDark from "../../../public/topArrowDark.svg"
 import Image from "next/image";
 import {useTranslations} from "next-intl";
 
@@ -55,14 +54,10 @@ const Page = () => {
                     {backToTop && (
                         <button
                             className="fixed flex justify-end items-end sm:mt-[710px] sm:ml-[1340px] bg-white shadow-lg dark:bg-gray-200
-                             sm:px-4 sm:py-2 rounded-lg text-xs text:white dark:text:dark"
+                             sm:px-2 sm:py-2 rounded-full text-xs text:white dark:text:dark"
                             onClick={scrollUp}>
                             <div className="flex justify-center items-center">
-                                <Image src={topArrow} alt="arrow_icon" className="hidden dark:block"/>
-                                <Image src={topArrowDark} alt="arrow_dark" className="dark:hidden block"/>
-                                <div className="sm:ml-3">
-                                    {t('back_to_top')}
-                                </div>
+                                <Image src={topArrow} alt="arrow_icon"/>
                             </div>
                         </button>
                     )}
