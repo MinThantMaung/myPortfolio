@@ -18,7 +18,6 @@ const Nav = ({onOpen}) => {
     const handleMenuOpen = (event) => {
         onOpen && onOpen(event);
     };
-    console.log(t(name))
 
     const gotoMain = () => {
         router.push('/')
