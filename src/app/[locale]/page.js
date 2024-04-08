@@ -22,6 +22,7 @@ const Page = () => {
         setDisplay(!display);
     };
 
+    console.log("hello")
     const closeMobileMenu = () => {
         setDisplay(false);
     };
