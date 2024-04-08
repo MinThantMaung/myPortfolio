@@ -19,6 +19,8 @@ const Nav = ({onOpen}) => {
         onOpen && onOpen(event);
     };
 
+    console.log("test")
+
     const gotoMain = () => {
         router.push('/')
     }
