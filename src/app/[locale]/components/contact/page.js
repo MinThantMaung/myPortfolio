@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import map from '../../../../../public/location.svg'
 import Image from "next/image";
 import {useEmail} from "../../../../../hooks/useEmail";
+import {useTranslations} from "next-intl";
 
 const Contact = () => {
     const [email, setEmail] = useState('')
@@ -11,6 +12,7 @@ const Contact = () => {
     const [toggle, setToggle] = useState(false)
     const [eToggle, setEToggle] = useState(false)
     const [successAlert,setSuccessAlert] = useState(false)
+    const t = useTranslations('Index');
 
     const { useSendEmail } = useEmail()
     const {mutateAsync:emailRes,isPending} = useSendEmail(email)
@@ -68,7 +70,7 @@ const Contact = () => {
                                 Let&apos;s create something together
                             </div>
                             <div className="sm:mt-6 mt-4 text-blue-500 text-start ml-4 sm:ml-0">
-                                Location
+                               Location
                             </div>
                             <div className="sm:w-fit w-full flex justify-center items-center mt-6 sm:mt-0">
                                 <div
@@ -80,7 +82,7 @@ const Contact = () => {
                                     </div>
                                     <div className="sm:ml-14 ml-4 sm:mt-0">
                                         <div className="font-bold text-lg text-black dark:text-white">
-                                            Location
+                                            location
                                         </div>
                                         <div
                                             className="sm:mt-1 mt-2 text-gray-600 hover:text-blue-600 cursor-pointer dark:text-white"
@@ -94,7 +96,7 @@ const Contact = () => {
                         <div>
                             <div className="rounded-lg shadow-lg p-6 mt-10 sm:mt-20 mx-2">
                                 <div className="text-xl font-bold text-start">
-                                    Send us a message
+                                    {t('send_message')}
                                 </div>
                                 <form method="POST" onSubmit={sendEmail}>
                                     <label
@@ -126,7 +128,7 @@ const Contact = () => {
                                             <button
                                                 className="w-full h-14 py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2"
                                             >
-                                                Send
+                                                {t('send')}
                                             </button>
                                         )}
                                     </div>

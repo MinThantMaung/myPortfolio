@@ -10,9 +10,11 @@ import yts from '../../../../../public/yts_01.png'
 import nike from '../../../../../public/nike.png'
 import product from '../../../../../public/productvity.png'
 import {useRouter} from "next/navigation";
+import {useTranslations} from "next-intl";
 
 const Projects = () => {
     const router = useRouter()
+    const t = useTranslations('Index');
     const gotoGithub = () => {
         router.push('https://github.com/Minthantmg/CoinBase');
     };
@@ -64,8 +66,7 @@ const Projects = () => {
                                 Coinbase
                             </div>
                             <div className="mt-4 text-lg sm:ml-20 sm:mr-20 text-gray-600 dark:text-white">
-                                Coinbase is a crypto website that allows users to search for information about various
-                                cryptocurrencies in real-time.
+                                {t('project_coinbase_detail')}
                             </div>
                             <div className="flex justify-center items-center mt-4 text-black dark:text-white">
                                 <div className="font-bold text-lg badge badge-outline p-3">
@@ -100,8 +101,7 @@ const Projects = () => {
                                 Productly
                             </div>
                             <div className="mt-4 text-lg sm:ml-20 sm:mr-20 text-gray-600 dark:text-white">
-                                Productly is a landing page for a productivity app that helps users organize their
-                                tasks, manage their time, and achieve their goals.
+                                {t('project_Productly_detail')}
                             </div>
                             <div className="flex justify-center items-center mt-4">
                                 <div className="font-bold text-lg badge badge-outline p-3 text-black dark:text-white">
@@ -146,10 +146,7 @@ const Projects = () => {
                                 YTS
                             </div>
                             <div className="mt-4 text-lg sm:ml-20 sm:mr-20 text-gray-600 dark:text-white">
-                                YTS allows users to download free movies in high quality and small file sizes. The
-                                website has a simple and user-friendly interface, with categories such as popular
-                                downloads, latest movies, upcoming movies, and genres. Users can also search for movies
-                                by title, year, rating, or quality.
+                                {t('project_Yts_detail')}
                             </div>
                             <div className="flex justify-center items-center mt-4">
                                 <div className="font-bold text-lg badge badge-outline p-3 text-black dark:text-white">
@@ -186,10 +183,7 @@ const Projects = () => {
                                 Nike
                             </div>
                             <div className="mt-4 text-lg sm:ml-20 sm:mr-20 text-gray-600 dark:text-white">
-                                Nike Store Commerce Web App Discover the ease of online shopping with the Nike Store
-                                Commerce Web App. This platform offers a user-friendly interface and a smooth shopping
-                                experience, highlighting Nike’s premium sports gear and apparel. Designed for efficiency
-                                and style, it’s the go-to destination for Nike enthusiasts.
+                                {t('project_nike_detail')}
                             </div>
                             <div className="flex justify-center items-center mt-4">
                                 <div className="font-bold text-lg badge badge-outline p-3 text-black dark:text-white">

@@ -22,6 +22,13 @@
     "time_detail_three": "Soy un desarrollador web apasionado con experiencia trabajando en la empresa Global Innovation Consulting. He creado aplicaciones web dinámicas y responsivas utilizando Java, React y Next.js para varios clientes y proyectos. Tengo un sólido conocimiento de marcos y herramientas de desarrollo web, como Spring Boot, Material UI y rutas API Next.js. Disfruto trabajando en proyectos desafiantes e innovadores que requieren habilidades tanto de front-end como de back-end. Siempre estoy ansioso por aprender nuevas tecnologías y mejorar mis habilidades de codificación.",
     "time_place_four": "FreeLance",
     "time_job_four": "Front-end Developer",
-    "time_detail_four": "Soy un desarrollador frontend independiente apasionado por crear sitios web hermosos y funcionales. Tengo experiencia trabajando con varios clientes y proyectos, usando HTML, CSS, JavaScript y marcos populares como React. Tengo buen ojo para el diseño y la UX, y siempre me esfuerzo por entregar código de alta calidad que satisfaga las necesidades y expectativas del cliente. Disfruto aprendiendo nuevas tecnologías y manteniéndome al día con las últimas tendencias en desarrollo web."
+    "time_detail_four": "Soy un desarrollador frontend independiente apasionado por crear sitios web hermosos y funcionales. Tengo experiencia trabajando con varios clientes y proyectos, usando HTML, CSS, JavaScript y marcos populares como React. Tengo buen ojo para el diseño y la UX, y siempre me esfuerzo por entregar código de alta calidad que satisfaga las necesidades y expectativas del cliente. Disfruto aprendiendo nuevas tecnologías y manteniéndome al día con las últimas tendencias en desarrollo web.",
+    "project_coinbase_detail": "Coinbase es un sitio web de cifrado que permite a los usuarios buscar información sobre varias criptomonedas en tiempo real.",
+    "project_Productly_detail": "Productly es una página de inicio para una aplicación de productividad que ayuda a los usuarios a organizar sus tareas, administrar su tiempo y alcanzar sus objetivos.",
+    "project_Yts_detail": "YTS permite a los usuarios descargar películas gratis en alta calidad y en archivos de tamaño pequeño. El sitio web tiene una interfaz sencilla y fácil de usar, con categorías como descargas populares, películas más recientes, próximas películas y géneros. Los usuarios también pueden buscar películas por título, año, clasificación o calidad.",
+    "project_nike_detail": "Aplicación web Nike Store Commerce Descubra la facilidad de comprar en línea con la aplicación web Nike Store Commerce. Esta plataforma ofrece una interfaz fácil de usar y una experiencia de compra fluida, destacando el equipo y la indumentaria deportiva premium de Nike. Diseñado para brindar eficiencia y estilo, es el destino ideal para los entusiastas de Nike.",
+    "send_message": "Mandanos un mensaje",
+    "location": "Ubicación",
+    "send": "enviar"
   }
 }

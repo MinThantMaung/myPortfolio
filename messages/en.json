@@ -22,6 +22,13 @@
     "time_detail_three": "I am a passionate web developer with experience in working at Global Innovation Consulting company.I have created dynamic and responsive web applications using Java, React, and Next.js for various clients and projects. I have a strong knowledge of web development tools and frameworks, such as Spring Boot, Material UI, and Next.js API routes. I enjoy working on challenging and innovative projects that require both front-end and back-end skills. I am always eager to learn new technologies and improve my coding skills.",
     "time_place_four": "FreeLance",
     "time_job_four": "Front-end Developer",
-    "time_detail_four": "I am a freelance frontend developer with a passion for creating beautiful and functional websites. I have experience in working with various clients and projects, using HTML, CSS, JavaScript, and popular framework such as React. I have a keen eye for design and UX, and I always strive to deliver high-quality code that meets the client's needs and expectations. I enjoy learning new technologies and keeping up with the latest trends in web development."
+    "time_detail_four": "I am a freelance frontend developer with a passion for creating beautiful and functional websites. I have experience in working with various clients and projects, using HTML, CSS, JavaScript, and popular framework such as React. I have a keen eye for design and UX, and I always strive to deliver high-quality code that meets the client's needs and expectations. I enjoy learning new technologies and keeping up with the latest trends in web development.",
+    "project_coinbase_detail": "Coinbase is a crypto website that allows users to search for information about various cryptocurrencies in real-time.",
+    "project_Productly_detail": "Productly is a landing page for a productivity app that helps users organize their tasks, manage their time, and achieve their goals.",
+    "project_Yts_detail": "YTS allows users to download free movies in high quality and small file sizes. The website has a simple and user-friendly interface, with categories such as popular downloads, latest movies, upcoming movies, and genres. Users can also search for movies by title, year, rating, or quality.",
+    "project_nike_detail": "Nike Store Commerce Web App Discover the ease of online shopping with the Nike Store Commerce Web App. This platform offers a user-friendly interface and a smooth shopping experience, highlighting Nike’s premium sports gear and apparel. Designed for efficiency and style, it’s the go-to destination for Nike enthusiasts.",
+    "send_message": "Send us a message",
+    "location": "Location",
+    "send": "send"
   }
 }
