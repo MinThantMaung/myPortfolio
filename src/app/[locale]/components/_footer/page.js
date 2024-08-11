@@ -4,6 +4,8 @@ import github from '../../../../../public/github.svg'
 import linkedin from '../../../../../public/linkedin.svg'
 import Image from "next/image";
 import {useRouter} from "next/navigation";
+import linkedinDark from "../../../../../public/linkedin_outline_black.svg";
+import githubDark from "../../../../../public/github.png";
 
 const Footer = () => {
     const router = useRouter()
@@ -15,7 +17,7 @@ const Footer = () => {
     }
 
     return (
-        <div className="flex justify-center w-full h-full bg-dark text-white">
+        <div className="flex justify-center w-full h-full bg-white text-black dark:bg-dark dark:text-white border-t dark:border-dark">
             <div className="w-full max-w-5xl">
                 <div className="flex sm:flex-row flex-col justify-between items-center pb-10 sm:pb-0">
                     <div className="font-bold pt-14 pb-14 text-lg sm:mr-0 sm:ml-0 mr-4 ml-4 text-center">
@@ -23,9 +25,11 @@ const Footer = () => {
                     </div>
                     <div className="flex">
                         <div onClick={gotoLinkedin} className="cursor-pointer">
+                            <Image src={linkedinDark} alt="" className="w-8 h-6 md:mt-4 dark:hidden"/>
                             <Image src={linkedin} alt="" className="w-6 h-6"/>
                         </div>
                         <div className="sm:ml-6 ml-6 cursor-pointer" onClick={gotoGithub}>
+                            <Image src={githubDark} alt="" className="w-8 h-6 md:mt-4 dark:hidden"/>
                             <Image src={github} alt="" className="w-6 h-6"/>
                         </div>
                     </div>
