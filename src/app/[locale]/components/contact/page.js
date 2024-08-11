@@ -4,6 +4,7 @@ import map from '../../../../../public/location.svg'
 import Image from "next/image";
 import {useEmail} from "../../../../../hooks/useEmail";
 import {useTranslations} from "next-intl";
+import clipBoard from '../../../../../public/clipBoardCheck.svg'
 
 const Contact = () => {
     const [email, setEmail] = useState('')
@@ -52,7 +53,7 @@ const Contact = () => {
 
     return (
         <div
-            className="flex flex-col sm:flex-row  justify-center w-full h-full bg-white dark:bg-dark dark:text-white md:pl-4 md:pr-4">
+            className="flex flex-col sm:flex-row justify-center w-full h-full bg-white dark:bg-dark text-black dark:text-white md:pl-4 md:pr-4">
             <div className="w-full max-w-5xl">
                 <div className="w-full h-fit text-center sm:text-start sm:pt-32 sm:pb-32 mt-20 sm:mt-0 pb-24">
                     <div className="text-blue-600 font-bold text-start ml-4 sm:ml-0">
@@ -151,8 +152,9 @@ const Contact = () => {
                         </div>
                         <div className={successAlert ? '' : 'hidden'}>
                             <div className="toast">
-                                <div className="alert alert-success">
-                                    <span className="text-white">Successfully sent</span>
+                                <div className="alert alert-success flex">
+                                    <Image src={clipBoard} alt="clip_img" />
+                                    <span className="text-white md:x-12">Successfully sent</span>
                                 </div>
                             </div>
                         </div>
