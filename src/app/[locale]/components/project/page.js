@@ -59,9 +59,7 @@ const Projects = () => {
     const gotoMpcGithub = () => {
         router.push('https://github.com/Minthantmg/MyanmarPostalCode');
     };
-
-    console.log("this page will be update");
-
+    
     return (
         <div>
             <div className="flex justify-center w-full h-full bg-white dark:bg-dark dark:text-white md:pl-4 md:pr-4">
