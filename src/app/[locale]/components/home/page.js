@@ -8,6 +8,7 @@ import linkedinLight from '../../../../../public/linkedin_outline_white.svg';
 import linkedinDark from '../../../../../public/linkedin_outline_black.svg';
 import {useRouter} from "next/navigation";
 import {useTranslations} from 'next-intl';
+import { Github, Linkedin } from 'lucide-react';
 
 const Home = () => {
     const router = useRouter()
@@ -103,12 +104,10 @@ const Home = () => {
                     </div>
                     <div className="flex sm:mt-10 mt-10">
                         <div onClick={gotoLinkedin} className="cursor-pointer">
-                            <Image src={linkedinDark} alt="" className="w-8 h-8 dark:hidden"/>
-                            <Image src={linkedinLight} alt="" className="w-8 h-8 hidden dark:block"/>
+                            <Linkedin width={30} height={30} />
                         </div>
                         <div className="sm:ml-6 ml-6 cursor-pointer" onClick={gotoGithub}>
-                            <Image src={githubDark} alt="" className="w-8 h-8 dark:hidden"/>
-                            <Image src={githubLight} alt="" className="w-8 h-8 hidden dark:block"/>
+                            <Github width={30} height={30}/>
                         </div>
                     </div>
                 </div>
