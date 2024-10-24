@@ -38,8 +38,8 @@ const Home = () => {
                         <div className="flex flex-col sm:justify-center sm:items-center">
                             <div
                                 className="flex flex-col sm:flex-row font-bold text-center text-black dark:text-white pt-20 sm:pt-0">
-                                <span className="mb-4 sm:mb-0 text-6xl">I am</span>
-                                <div className="text-6xl ml-4">
+                                <span className="mb-4 sm:mb-0 text-5xl">I am</span>
+                                <div className="text-5xl ml-4">
                                     <TypeAnimation
                                         sequence={[
                                             'Front-End Developer',
