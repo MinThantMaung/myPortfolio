@@ -11,6 +11,7 @@ import spain from '../../../../../public/flags/spain.png'
 import Theme from "@/app/[locale]/components/theme";
 import {useRouter} from "next/navigation";
 import {useTranslations} from 'next-intl';
+import { Languages } from 'lucide-react';
 
 const Nav = ({onOpen}) => {
     const router = useRouter()
@@ -30,9 +31,6 @@ const Nav = ({onOpen}) => {
                     MinThant.dev
                 </div>
                 <div className="flex mt-2">
-                    <div className="ml-10 mt-[2px] sm:-mt-[4px]">
-                        <Theme/>
-                    </div>
                     <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
                         <a href="#home">
                             {t('nav_home')}
@@ -63,14 +61,18 @@ const Nav = ({onOpen}) => {
                             {t('nav_contact')}
                         </a>
                     </div>
+                    <div className="ml-10 mt-[2px] sm:-mt-[4px]">
+                        <Theme/>
+                    </div>
                     <div className="dropdown dropdown-bottom dropdown-end">
                         <div tabIndex={0} role="button"
                              className="sm:ml-8 sm:text-base font-bold ml-3 mt-[6px] sm:mt-0">
-                            <Image src={lang_white} alt="lang_dark" className="hidden dark:block w-6 h-6"/>
-                            <Image src={lang_dark} alt="lang_white" className="dark:hidden w-6 h-6"/>
+                            {/* <Image src={Languages} alt="lang_dark" className="hidden dark:block w-6 h-6"/>
+                            <Image src={Languages} alt="lang_white" className="dark:hidden w-6 h-6"/> */}
+                            <Languages width={23} height={23}/>
                         </div>
                         <ul tabIndex={0}
-                            className="dropdown-content z-[1] menu p-2 shadow bg-white dark:bg-base-100 rounded-box w-[90px] sm:mt-2">
+                            className="dropdown-content z-[1] menu p-2 shadow bg-white dark:text-black dark:bg-base-100 rounded-box w-[90px] sm:mt-2">
                             <li><a href="/en">
                                 <div className="flex">
                                     <div>
