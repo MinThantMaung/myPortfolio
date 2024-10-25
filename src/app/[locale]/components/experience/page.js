@@ -33,7 +33,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 React
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -47,7 +47,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 NextJS
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -61,7 +61,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 HTML
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -75,7 +75,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 CSS
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -89,7 +89,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 Tailwind
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -103,7 +103,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 JavaScript
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -117,7 +117,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 TypeScript
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Basic
                                             </div>
                                         </div>
@@ -131,7 +131,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 Sass
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Intermediate
                                             </div>
                                         </div>
@@ -153,7 +153,7 @@ const Experience = () => {
                                         <div className="font-bold text-lg">
                                             NodeJS
                                         </div>
-                                        <div className="text-gray-400 text-xs">
+                                        <div className="text-gray-700 text-xs">
                                             Intermediate
                                         </div>
                                     </div>
@@ -167,7 +167,7 @@ const Experience = () => {
                                         <div className="font-bold text-lg">
                                             ExpressJS
                                         </div>
-                                        <div className="text-gray-400 text-xs">
+                                        <div className="text-gray-700 text-xs">
                                             Basic
                                         </div>
                                     </div>
@@ -181,7 +181,7 @@ const Experience = () => {
                                         <div className="font-bold text-lg">
                                             MongoDB
                                         </div>
-                                        <div className="text-gray-400 text-xs">
+                                        <div className="text-gray-700 text-xs">
                                             Intermediate
                                         </div>
                                     </div>
@@ -195,7 +195,7 @@ const Experience = () => {
                                         <div className="font-bold text-lg">
                                             MySQL
                                         </div>
-                                        <div className="text-gray-400 text-xs">
+                                        <div className="text-gray-700 text-xs">
                                             Intermediate
                                         </div>
                                     </div>
@@ -209,7 +209,7 @@ const Experience = () => {
                                         <div className="font-bold text-lg">
                                             Java
                                         </div>
-                                        <div className="text-gray-400 text-xs">
+                                        <div className="text-gray-700 text-xs">
                                             Advanced
                                         </div>
                                     </div>
@@ -223,7 +223,7 @@ const Experience = () => {
                                         <div className="font-bold text-lg">
                                             Kotlin
                                         </div>
-                                        <div className="text-gray-400 text-xs">
+                                        <div className="text-gray-700 text-xs">
                                             Advanced
                                         </div>
                                     </div>
@@ -237,7 +237,7 @@ const Experience = () => {
                                         <div className="font-bold text-lg">
                                             SpringBoot
                                         </div>
-                                        <div className="text-gray-400 text-xs">
+                                        <div className="text-gray-700 text-xs">
                                             Intermediate
                                         </div>
                                     </div>
@@ -259,7 +259,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 PostMan
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -273,7 +273,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 Docker
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Intermediate
                                             </div>
                                         </div>
@@ -287,7 +287,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 Git
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -301,7 +301,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 VSCode
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Intermediate
                                             </div>
                                         </div>
@@ -315,7 +315,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 MacOs
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -329,7 +329,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 Webstorm
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Advanced
                                             </div>
                                         </div>
@@ -343,7 +343,7 @@ const Experience = () => {
                                             <div className="font-bold text-lg">
                                                 Vercel
                                             </div>
-                                            <div className="text-gray-400 text-xs">
+                                            <div className="text-gray-700 text-xs">
                                                 Intermediate
                                             </div>
                                         </div>
