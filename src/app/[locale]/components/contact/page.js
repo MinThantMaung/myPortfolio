@@ -66,10 +66,10 @@ const Contact = () => {
                             <div className="sm:text-5xl text-2xl sm:mr-20 text-start ml-4 sm:ml-0">
                                 Tell me about your project
                             </div>
-                            <div className="sm:mt-6 text-blue-500 text-start ml-4 sm:ml-0">
+                            <div className="sm:mt-6 text-blue-700 text-start ml-4 sm:ml-0">
                                 Let&apos;s create something together
                             </div>
-                            <div className="sm:mt-6 mt-4 text-blue-500 text-start ml-4 sm:ml-0">
+                            <div className="sm:mt-6 mt-4 text-blue-700 text-start ml-4 sm:ml-0">
                                Location
                             </div>
                             <div className="sm:w-fit w-full flex justify-center items-center mt-6 sm:mt-0">
