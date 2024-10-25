@@ -66,7 +66,7 @@ const Home = () => {
                             >
                                 {t('home_more')}, <span onClick={() => {
                                 downloadResume(cvUrl)
-                            }} className="underline hover:text-blue-500 cursor-pointer">click here</span>
+                            }} className="underline hover:text-blue-700 cursor-pointer">click here</span>
                             </div>
                         </div>
                     </div>
