@@ -20,7 +20,7 @@ const Experience = () => {
                     <div className="mt-6 sm:mt-16 pl-4 pr-4 sm:pl-0 sm:pr-0 grid sm:grid-cols-3 grid-cols-1 gap-6">
                         <div>
                             <div className="flex flex-col justify-center items-center fade-in-left">
-                                <div className="text-blue-500 font-bold">
+                                <div className="text-blue-700 font-bold">
                                     FrontEnd
                                 </div>
                                 <div className="grid grid-cols-2 gap-4 sm:mt-16 mt-10 text-black dark:text-white">
@@ -140,7 +140,7 @@ const Experience = () => {
                             </div>
                         </div>
                         <div className="flex flex-col justify-center items-center sm:ml-4 mt-2 sm:mt-0">
-                            <div className="text-blue-500 font-bold">
+                            <div className="text-blue-700 font-bold">
                                 BackEnd
                             </div>
                             <div className="grid grid-cols-2 gap-4 sm:mt-16 mt-10 text-black dark:text-white">
@@ -246,7 +246,7 @@ const Experience = () => {
                         </div>
                         <div>
                             <div className="flex flex-col justify-center items-center sm:ml-4 mt-2 sm:mt-0 fade-in">
-                                <div className="text-blue-500 font-bold">
+                                <div className="text-blue-700 font-bold">
                                     Tools
                                 </div>
                                 <div className="grid grid-cols-2 gap-4 sm:mt-16 mt-10 text-black dark:text-white">
