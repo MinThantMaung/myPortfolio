@@ -83,10 +83,10 @@ const Nav = ({onOpen}) => {
                                     </div>
                                 </div>
                             </a></li>
-                            <li><a href="/jp">
+                            <li><a href="/ja">
                                 <div className="flex">
                                     <div>
-                                        jp
+                                        ja
                                     </div>
                                     <div className="flex ml-3 mt-[2px]">
                                         <Image src={jp} alt="flag_usa" className="w-4 h-4"/>
