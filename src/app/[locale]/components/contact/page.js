@@ -121,12 +121,12 @@ const Contact = () => {
                                     <div>
                                         {isPending ? (
                                             <button
-                                                className="w-full h-14 py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2">
+                                                className="w-full h-14 py-4 bg-blue-700 text-white rounded-lg sm:mt-1 mt-2">
                                                 <span className="loading loading-spinner loading-sm text-white"></span>
                                             </button>
                                         ) : (
                                             <button
-                                                className="w-full h-14 py-4 bg-blue-500 text-white rounded-lg sm:mt-1 mt-2"
+                                                className="w-full h-14 py-4 bg-blue-700 text-white rounded-lg sm:mt-1 mt-2"
                                             >
                                                 {t('send')}
                                             </button>
