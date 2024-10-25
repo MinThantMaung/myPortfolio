@@ -63,7 +63,7 @@ const Nav = ({ onOpen }) => {
             </div>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow bg-white dark:text-black dark:bg-base-100 rounded-box w-[90px] sm:mt-2"
+              className="dropdown-content z-[1] menu p-2 shadow bg-white dark:text-white dark:bg-base-100 rounded-box w-[90px] sm:mt-2"
             >
               <li>
                 <a href="/en">
