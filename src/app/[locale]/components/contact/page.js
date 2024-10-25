@@ -39,7 +39,6 @@ const Contact = () => {
                 setSuccessAlert(false);
             }, 5000);
         }catch (e){
-            console.log(e)
             setToggle(true)
             setTimeout(() => {
                 setToggle(false);
