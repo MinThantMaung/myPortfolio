@@ -3,8 +3,6 @@ import React from "react";
 import Image from "next/image";
 import menu from "../../../../../public/hamberger.svg";
 import menu_light from "../../../../../public/hamberger_light.svg";
-import lang_white from "../../../../../public/lang_white.png";
-import lang_dark from "../../../../../public/lang_dark.png";
 import usa from "../../../../../public/flags/usa.png";
 import jp from "../../../../../public/flags/jp.png";
 import spain from "../../../../../public/flags/spain.png";
