@@ -31,6 +31,7 @@ const Theme = () => {
                     value="synthwave"
                     checked={darkMode}
                     onChange={handleThemeChange}
+                     aria-label="Toggle dark mode"
                 />
 
                 {darkMode ? (
