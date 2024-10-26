@@ -9,7 +9,7 @@ const Home = () => {
     const router = useRouter()
     const t = useTranslations('Index');
     const gotoLinkedin = () => {
-        window.open('https://www.linkedin.com/in/min-thant-mg-2620411b3/')
+        window.open('https://www.linkedin.com/in/min-thant-maung-2620411b3/')
     }
     const gotoGithub = () => {
         window.open('https://github.com/Minthantmg')
