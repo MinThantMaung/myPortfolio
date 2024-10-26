@@ -21,6 +21,8 @@ const Home = () => {
         const aTag = document.createElement('a')
         aTag.href = url
         aTag.setAttribute('download', fileName)
+        aTag.setAttribute('target', '_blank');
+        aTag.setAttribute('rel', 'noopener noreferrer');
         aTag.click()
         aTag.remove()
     }
