@@ -9,10 +9,10 @@ const Home = () => {
     const router = useRouter()
     const t = useTranslations('Index');
     const gotoLinkedin = () => {
-        router.push('https://www.linkedin.com/in/min-thant-mg-2620411b3/')
+        window.open('https://www.linkedin.com/in/min-thant-mg-2620411b3/')
     }
     const gotoGithub = () => {
-        router.push('https://github.com/Minthantmg')
+        window.open('https://github.com/Minthantmg')
     }
     const cvUrl = 'https://drive.google.com/file/d/16w__oxddrtp7e1JFoaVUJj65q8RBcPic/view';
 
