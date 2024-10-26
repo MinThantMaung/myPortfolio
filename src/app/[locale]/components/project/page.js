@@ -18,46 +18,46 @@ const Projects = () => {
     const router = useRouter()
     const t = useTranslations('Index');
     const gotoGithub = () => {
-        router.push('https://github.com/Minthantmg/CoinBase');
+        window.open('https://github.com/Minthantmg/CoinBase');
     };
 
     const gotoWebsite = () => {
-        router.push('https://coin-base-live-market.vercel.app/');
+        window.open('https://coin-base-live-market.vercel.app/');
     };
 
     const gotoProductlyWebsite = () => {
-        router.push('https://productly-landing-page-eta.vercel.app/');
+        window.open('https://productly-landing-page-eta.vercel.app/');
     };
     const gotoProductlyGithub = () => {
-        router.push('https://github.com/Minthantmg/productivityLandingPage/');
+        window.open('https://github.com/Minthantmg/productivityLandingPage/');
     };
 
     const gotoYtsWebsite = () => {
-        router.push('https://yts-clone-movie.vercel.app/');
+        window.open('https://yts-clone-movie.vercel.app/');
     };
     const gotoYtsGithub = () => {
-        router.push('https://github.com/Minthantmg/YtsClone');
+        window.open('https://github.com/Minthantmg/YtsClone');
     };
 
     const gotoNikeWebsite = () => {
-        router.push('https://nike-commercial.vercel.app/');
+        window.open('https://nike-commercial.vercel.app/');
     };
     const gotoNikeGithub = () => {
-        router.push('https://github.com/Minthantmg/Nike');
+        window.open('https://github.com/Minthantmg/Nike');
     };
 
     const gotoStoreWebsite = () => {
-        router.push('https://mini-store-weld.vercel.app/');
+        window.open('https://mini-store-weld.vercel.app/');
     };
     const gotoStoreGithub = () => {
-        router.push('https://github.com/Minthantmg/mini-Ecommerce');
+        window.open('https://github.com/Minthantmg/mini-Ecommerce');
     };
 
     const gotoMpcWebsite = () => {
-        router.push('https://myanmar-postal-code-seven.vercel.app/');
+        window.open('https://myanmar-postal-code-seven.vercel.app/');
     };
     const gotoMpcGithub = () => {
-        router.push('https://github.com/Minthantmg/MyanmarPostalCode');
+        window.open('https://github.com/nainglinthant111/Postal-Code-Myanmar-org');
     };
     
     return (
