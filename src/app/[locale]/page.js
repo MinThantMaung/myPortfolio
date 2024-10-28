@@ -13,7 +13,7 @@ import {ChevronUp} from 'lucide-react'
 import {useTranslations} from "next-intl";
 
 const Page = () => {
-    const [backToTop, setBackToTop] = useState(true)
+    const [backToTop, setBackToTop] = useState(false);
     const [display, setDisplay] = useState(false);
     const t = useTranslations('Index');
     const handleMenuClick = (event) => {
