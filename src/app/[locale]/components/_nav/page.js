@@ -1,15 +1,13 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import menu from "../../../../../public/hamberger.svg";
-import menu_light from "../../../../../public/hamberger_light.svg";
 import usa from "../../../../../public/flags/usa.png";
 import jp from "../../../../../public/flags/jp.png";
 import spain from "../../../../../public/flags/spain.png";
 import Theme from "@/app/[locale]/components/theme";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
-import { Languages } from "lucide-react";
+import { Languages,Menu } from "lucide-react";
 
 const Nav = ({ onOpen }) => {
   const router = useRouter();
@@ -98,19 +96,9 @@ const Nav = ({ onOpen }) => {
             </ul>
           </div>
           <div className="flex sm:hidden ml-4">
-            <Image
-              src={menu}
-              alt=""
-              className="dark:hidden w-7 h-7 mt-[5px]"
+            <Menu
+              className="w-7 h-7 mt-[5px]"
               onClick={handleMenuOpen}
-            />
-            <Image
-              src={menu_light}
-              alt=""
-              className="hidden dark:block w-7 h-7 mt-[5px]"
-              onClick={handleMenuOpen}
-              width="25"
-              height="25"
             />
           </div>
         </div>
