@@ -1,5 +1,5 @@
 'use client'
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {TypeAnimation} from "react-type-animation";
 import {useRouter} from "next/navigation";
 import {useTranslations} from 'next-intl';

@@ -1,10 +1,7 @@
 'use client'
 import React from 'react';
 import Image from "next/image";
-import github from '../../../../../public/github_solid.svg'
-import github_light from '../../../../../public/github_solod_white.svg'
-import popup from '../../../../../public/popup.svg'
-import popup_light from '../../../../../public/popup_white.svg'
+import {ExternalLink,Github} from "lucide-react"
 import coin from '../../../../../public/coindom.png'
 import yts from '../../../../../public/yts_01.png'
 import nike from '../../../../../public/nike.png'
@@ -257,14 +254,12 @@ const Projects = () => {
                             </div>
                             <div className="flex mt-10">
                                 <div className="flex text-lg font-bold cursor-pointer" onClick={gotoStoreGithub}>
-                                    <span className="sm:mt-[3px] text-black dark:text-white">Code</span><Image
-                                    src={github} alt="" className="w-8 h-8 ml-1 dark:hidden"/>
-                                    <Image src={github_light} alt="" className="w-8 h-8 ml-1 hidden dark:block"/>
+                                    <span className="sm:mt-[3px] text-black dark:text-white">Code</span>
+                                    <Github className="w-8 h-8 ml-2"/>
                                 </div>
                                 <div className="flex text-lg font-bold ml-10 cursor-pointer" onClick={gotoStoreWebsite}>
-                                    <span className="sm:mt-[3px] text-black dark:text-white">Live Demo</span><Image
-                                    src={popup} alt="" className="w-7 h-7 ml-1 dark:hidden"/>
-                                    <Image src={popup_light} alt="" className="w-7 h-7 ml-1 hidden dark:block"/>
+                                    <span className="sm:mt-[3px] text-black dark:text-white">Live Demo</span>
+                                    <ExternalLink className="w-7 h-7 ml-2"/>
                                 </div>
                             </div>
                         </div>
@@ -290,15 +285,13 @@ const Projects = () => {
                             </div>
                             <div className="flex justify-center items-center sm:mt-10 mt-10">
                                 <div className="flex text-lg font-bold cursor-pointer" onClick={gotoMpcGithub}>
-                                    <span className="sm:mt-[3px] text-black dark:text-white">Code</span><Image
-                                    src={github} alt="" className="w-8 h-8 ml-1 dark:hidden"/>
-                                    <Image src={github_light} alt="" className="w-8 h-8 ml-1 hidden dark:block"/>
+                                    <span className="sm:mt-[3px] text-black dark:text-white">Code</span>
+                                    <Github className="w-8 h-8 ml-2"/>
                                 </div>
                                 <div className="flex text-lg font-bold ml-10 cursor-pointer"
                                      onClick={gotoMpcWebsite}>
-                                    <span className="sm:mt-[3px] text-black dark:text-white">Live Demo</span><Image
-                                    src={popup} alt="" className="w-7 h-7 ml-1 dark:hidden"/>
-                                    <Image src={popup_light} alt="" className="w-7 h-7 ml-1 hidden dark:block"/>
+                                    <span className="sm:mt-[3px] text-black dark:text-white">Live Demo</span>
+                                    <ExternalLink className="w-7 h-7 ml-2"/>
                                 </div>
                             </div>
                         </div>

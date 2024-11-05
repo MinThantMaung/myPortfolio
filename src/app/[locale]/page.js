@@ -9,12 +9,11 @@ import Footer from "@/app/[locale]/components/_footer/page";
 import Menu from "@/app/[locale]/components/menu/page";
 import Experience from "@/app/[locale]/components/experience/page";
 import Timeline from "@/app/[locale]/components/timeline";
-import topArrow from "../../../public/topArrow.svg"
-import Image from "next/image";
+import {ChevronUp} from 'lucide-react'
 import {useTranslations} from "next-intl";
 
 const Page = () => {
-    const [backToTop, setBackToTop] = useState(false)
+    const [backToTop, setBackToTop] = useState(false);
     const [display, setDisplay] = useState(false);
     const t = useTranslations('Index');
     const handleMenuClick = (event) => {
@@ -53,11 +52,12 @@ const Page = () => {
                     <Nav onOpen={handleMenuClick}/>
                     {backToTop && (
                         <button
-                            className="fixed flex justify-end items-end sm:mt-[710px] sm:ml-[1340px] bg-white shadow-lg dark:bg-gray-200
-                             sm:px-2 sm:py-2 rounded-full text-xs text:white dark:text:dark"
-                            onClick={scrollUp}>
+                            className="fixed bottom-8 right-8 bg-black shadow-lg dark:bg-white
+                                        px-2 py-2 rounded-full text-xs text-white dark:text-dark"
+                            onClick={scrollUp}
+                        >
                             <div className="flex justify-center items-center">
-                                <Image src={topArrow} alt="arrow_icon"/>
+                                <ChevronUp/>
                             </div>
                         </button>
                     )}
