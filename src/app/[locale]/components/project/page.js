@@ -297,7 +297,7 @@ const Projects = () => {
                         </div>
                         <div className="max-h-96 sm:w-1/2 overflow-hidden group rounded-xl order-1 sm:order-2">
                             <Image src={mpc} alt=""
-                                   className="rounded-lg"/>
+                                   className="rounded-lg py-10"/>
                         </div>
                     </div>
                 </div>
