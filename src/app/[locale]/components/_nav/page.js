@@ -61,12 +61,12 @@ const Nav = ({ onOpen }) => {
             </div>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow bg-white dark:text-white dark:bg-base-100 rounded-box w-[90px] sm:mt-2"
+              className="dropdown-content z-[1] menu p-2 shadow bg-white dark:text-black dark:bg-base-100 rounded-box w-[90px] sm:mt-2"
             >
               <li>
                 <a href="/en">
                   <div className="flex">
-                    <div>en</div>
+                    <div>en/us</div>
                     <div className="flex ml-2 mt-[2px]">
                       <Image src={usa} alt="flag_usa" className="w-4 h-4" />
                     </div>
