@@ -66,7 +66,7 @@ const Nav = ({ onOpen }) => {
               <li>
                 <a href="/en">
                   <div className="flex">
-                    <div>en/us</div>
+                    <div>en</div>
                     <div className="flex ml-2 mt-[2px]">
                       <Image src={usa} alt="flag_usa" className="w-4 h-4" />
                     </div>
