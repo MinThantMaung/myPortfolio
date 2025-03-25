@@ -26,7 +26,7 @@ const Nav = ({ onOpen }) => {
           className="sm:text-xl font-bold text-black dark:text-white cursor-pointer"
           onClick={gotoMain}
         >
-          MinThant.dev
+          MinThantMaung
         </div>
         <div className="flex mt-2">
           <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
