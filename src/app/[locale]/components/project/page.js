@@ -8,7 +8,7 @@ import yts from '../../../../../public/yts_01.png'
 //import product from '../../../../../public/productvity.png'
 import store from '../../../../../public/store.png'
 import mpc from '../../../../../public/mpc.png'
-import {useRouter} from "next/navigation";
+//import {useRouter} from "next/navigation";
 import {useTranslations} from "next-intl";
 
 const Projects = () => {
