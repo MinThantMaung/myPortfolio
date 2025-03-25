@@ -2,32 +2,32 @@
 import React from 'react';
 import Image from "next/image";
 import {ExternalLink,Github} from "lucide-react"
-import coin from '../../../../../public/coindom.png'
+// import coin from '../../../../../public/coindom.png'
 import yts from '../../../../../public/yts_01.png'
-import nike from '../../../../../public/nike.png'
-import product from '../../../../../public/productvity.png'
+//import nike from '../../../../../public/nike.png'
+//import product from '../../../../../public/productvity.png'
 import store from '../../../../../public/store.png'
 import mpc from '../../../../../public/mpc.png'
 import {useRouter} from "next/navigation";
 import {useTranslations} from "next-intl";
 
 const Projects = () => {
-    const router = useRouter()
+    // const router = useRouter()
     const t = useTranslations('Index');
-    const gotoGithub = () => {
-        window.open('https://github.com/Minthantmg/CoinBase');
-    };
+    // const gotoGithub = () => {
+    //     window.open('https://github.com/Minthantmg/CoinBase');
+    // };
 
-    const gotoWebsite = () => {
-        window.open('https://coin-base-live-market.vercel.app/');
-    };
+    // const gotoWebsite = () => {
+    //     window.open('https://coin-base-live-market.vercel.app/');
+    // };
 
-    const gotoProductlyWebsite = () => {
-        window.open('https://productly-landing-page-eta.vercel.app/');
-    };
-    const gotoProductlyGithub = () => {
-        window.open('https://github.com/Minthantmg/productivityLandingPage/');
-    };
+    // const gotoProductlyWebsite = () => {
+    //     window.open('https://productly-landing-page-eta.vercel.app/');
+    // };
+    // const gotoProductlyGithub = () => {
+    //     window.open('https://github.com/Minthantmg/productivityLandingPage/');
+    // };
 
     const gotoYtsWebsite = () => {
         window.open('https://yts-clone-movie.vercel.app/');
@@ -36,12 +36,12 @@ const Projects = () => {
         window.open('https://github.com/Minthantmg/YtsClone');
     };
 
-    const gotoNikeWebsite = () => {
-        window.open('https://nike-commercial.vercel.app/');
-    };
-    const gotoNikeGithub = () => {
-        window.open('https://github.com/Minthantmg/Nike');
-    };
+    // const gotoNikeWebsite = () => {
+    //     window.open('https://nike-commercial.vercel.app/');
+    // };
+    // const gotoNikeGithub = () => {
+    //     window.open('https://github.com/Minthantmg/Nike');
+    // };
 
     const gotoStoreWebsite = () => {
         window.open('https://mini-store-weld.vercel.app/');
