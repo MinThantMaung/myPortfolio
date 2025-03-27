@@ -14,7 +14,7 @@ const Home = () => {
     const gotoGithub = () => {
         window.open('https://github.com/Minthantmg')
     }
-    const cvUrl = 'https://drive.google.com/file/d/16w__oxddrtp7e1JFoaVUJj65q8RBcPic/view';
+    const cvUrl = 'https://drive.google.com/file/d/16uZ48_ckfRyS_u2g84Wd0XfPq96Rnxbg/view?usp=drive_link';
 
     const downloadResume = (url) => {
         const fileName = url.split('/').pop()
