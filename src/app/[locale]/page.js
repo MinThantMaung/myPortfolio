@@ -9,6 +9,7 @@ import Footer from "@/app/[locale]/components/_footer/page";
 import Menu from "@/app/[locale]/components/menu/page";
 import Experience from "@/app/[locale]/components/experience/page";
 import Timeline from "@/app/[locale]/components/timeline";
+import Achievements from "@/app/[locale]/components/achievments/page"
 import {ChevronUp} from 'lucide-react'
 import {useTranslations} from "next-intl";
 
@@ -66,6 +67,9 @@ const Page = () => {
                     </section>
                     <section id="about">
                         <About/>
+                    </section>
+                    <section id="achievments">
+                        <Achievements/>
                     </section>
                     <section id="timeline">
                         <Timeline/>
