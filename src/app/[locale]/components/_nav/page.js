@@ -29,22 +29,25 @@ const Nav = ({ onOpen }) => {
           MinThantMaung
         </div>
         <div className="flex mt-2">
-          <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
+          <div className="hidden sm:block sm:text-base font-bold sm:ml-8 hover:text-blue-600">
             <a href="#home">{t("nav_home")}</a>
           </div>
-          <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
+          <div className="hidden sm:block sm:text-base font-bold sm:ml-8 hover:text-blue-600">
             <a href="#about">{t("nav_about")}</a>
           </div>
-          <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
+          <div className="hidden sm:block sm:text-base font-bold sm:ml-8 hover:text-blue-600">
+            <a href="#achievments">{t("nav_achievements")}</a>
+          </div>
+          <div className="hidden sm:block sm:text-base font-bold sm:ml-8 hover:text-blue-600">
             <a href="#timeline">{t("nav_career")}</a>
           </div>
-          <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
+          <div className="hidden sm:block sm:text-base font-bold sm:ml-8 hover:text-blue-600">
             <a href="#skill">{t("nav_skill")}</a>
           </div>
-          <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
+          <div className="hidden sm:block sm:text-base font-bold sm:ml-8 hover:text-blue-600">
             <a href="#project">{t("nav_project")}</a>
           </div>
-          <div className="hidden sm:block sm:text-base font-bold sm:ml-8">
+          <div className="hidden sm:block sm:text-base font-bold sm:ml-8 hover:text-blue-600">
             <a href="#contact">{t("nav_contact")}</a>
           </div>
           <div className="ml-10 mt-[2px] sm:-mt-[4px]">
