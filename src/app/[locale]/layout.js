@@ -1,3 +1,5 @@
+// app/[locale]/layout.js
+
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
@@ -10,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Min Thant Mg | Front-end Developer",
   description:
-    "Portfolio of Min Thant Mg – a passionate front-end developer with expertise in React, Next.js, and modern web technologies. Discover projects, skills, and more.",
+    "Portfolio of Min Thant Maung – a passionate front-end developer with expertise in React, Next.js, and modern web technologies. Discover projects, skills, and more.",
   timeZone: "Europe/Vienna",
 };
 
@@ -28,10 +30,6 @@ export default async function RootLayout({ children, params: { locale } }) {
   const messages = await loadMessages(locale);
   return (
     <html lang={locale} className="!scroll-smooth">
-      <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content="Portfolio of Min Thant Mg – a passionate front-end developer with expertise in React, Next.js, and modern web technologies. Discover projects, skills, and more."/>
-      </head>
       <body className={inter.className}>
         <NextIntlClientProvider
           locale={locale}
