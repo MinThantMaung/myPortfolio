@@ -28,6 +28,10 @@ export default async function RootLayout({ children, params: { locale } }) {
   const messages = await loadMessages(locale);
   return (
     <html lang={locale} className="!scroll-smooth">
+      <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content="Portfolio of Min Thant Mg – a passionate front-end developer with expertise in React, Next.js, and modern web technologies. Discover projects, skills, and more."/>
+      </head>
       <body className={inter.className}>
         <NextIntlClientProvider
           locale={locale}
