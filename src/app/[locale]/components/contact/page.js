@@ -5,6 +5,7 @@ import Image from "next/image";
 import {useEmail} from "../../../../../hooks/useEmail";
 import {useTranslations} from "next-intl";
 import clipBoard from '../../../../../public/clipBoardCheck.svg'
+import Map from '../map/page';
 
 const Contact = () => {
     const [email, setEmail] = useState('')
@@ -72,29 +73,10 @@ const Contact = () => {
                             <div className="sm:mt-6 mt-4 text-blue-700 text-start ml-4 sm:ml-0">
                                Location
                             </div>
-                            <div className="sm:w-fit w-full flex justify-center items-center mt-6 sm:mt-0">
-                                <div
-                                    className="flex sm:flex-row mt-0 sm:mt-10 shadow-lg sm:p-6 p-6 rounded-lg">
-                                    <div>
-                                        <div className="shadow-lg rounded-full p-3">
-                                            <Image src={map} alt=""/>
-                                        </div>
-                                    </div>
-                                    <div className="sm:ml-14 ml-4 sm:mt-0">
-                                        <div className="font-bold text-lg text-black dark:text-white">
-                                            location
-                                        </div>
-                                        <div
-                                            className="sm:mt-1 mt-2 text-gray-600 hover:text-blue-600 cursor-pointer dark:text-white"
-                                            onClick={openLocation}>
-                                            Yangon, Myanmar
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <Map />           
                         </div>
                         <div>
-                            <div className="rounded-lg shadow-lg p-6 mt-10 sm:mt-20 mx-2">
+                            <div className="rounded-lg shadow-lg p-6 mt-10 sm:mt-44 mx-2">
                                 <div className="text-xl font-bold text-start">
                                     {t('send_message')}
                                 </div>
