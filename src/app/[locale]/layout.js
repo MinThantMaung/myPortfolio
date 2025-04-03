@@ -32,14 +32,16 @@ export default async function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale} className="!scroll-smooth">
       <Head>
-        {/* Google site verification meta tag */}
-        <meta name="google-site-verification" content="7FCbr0FOZIS_rxi8hEM2KL6UZLdzWPRt2SsAA3m92k0" />
-        
-        {/* Other metadata */}
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        {/* Google Analytics Tag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG16553EZF"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KG16553EZF');
+          `}
+        </script>
       </Head>
       <body className={inter.className}>
         <NextIntlClientProvider
