@@ -6,7 +6,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { Analytics } from "@vercel/analytics/react";
 import React from "react";
 import Providers from "./components/Provider";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,18 +30,6 @@ export default async function RootLayout({ children, params: { locale } }) {
   const messages = await loadMessages(locale);
   return (
     <html lang={locale} className="!scroll-smooth">
-      <Head>
-        {/* Google Analytics Tag */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG16553EZF"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-KG16553EZF');
-          `}
-        </script>
-      </Head>
       <body className={inter.className}>
         <NextIntlClientProvider
           locale={locale}
