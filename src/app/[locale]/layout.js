@@ -30,6 +30,9 @@ export default async function RootLayout({ children, params: { locale } }) {
   const messages = await loadMessages(locale);
   return (
     <html lang={locale} className="!scroll-smooth">
+      <head>
+        <meta name="google-site-verification" content="7FCbr0FOZIS_rxi8hEM2KL6UZLdzWPRt2SsAA3m92k0" />
+      </head>
       <body className={inter.className}>
         <NextIntlClientProvider
           locale={locale}
