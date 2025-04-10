@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { Analytics } from "@vercel/analytics/react";
 import React from "react";
 import Providers from "./components/Provider";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
