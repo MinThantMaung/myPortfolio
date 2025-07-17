@@ -7,7 +7,7 @@ import spain from "../../../../../public/flags/spain.png";
 import Theme from "@/app/[locale]/components/theme";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
-import { Languages,Menu } from "lucide-react";
+import { Languages, Menu } from "lucide-react";
 
 const Nav = ({ onOpen }) => {
   const router = useRouter();
@@ -64,7 +64,7 @@ const Nav = ({ onOpen }) => {
             </div>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow bg-white dark:text-black dark:bg-base-100 rounded-box w-[90px] sm:mt-2"
+              className="dropdown-content z-[1] menu p-2 shadow bg-white dark:text-white dark:bg-base-100 rounded-box w-[90px] sm:mt-2"
             >
               <li>
                 <a href="/en">
@@ -99,10 +99,7 @@ const Nav = ({ onOpen }) => {
             </ul>
           </div>
           <div className="flex sm:hidden ml-4">
-            <Menu
-              className="w-7 h-7 mt-[5px]"
-              onClick={handleMenuOpen}
-            />
+            <Menu className="w-7 h-7 mt-[5px]" onClick={handleMenuOpen} />
           </div>
         </div>
       </div>
