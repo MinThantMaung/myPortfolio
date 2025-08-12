@@ -9,12 +9,11 @@ import linkedinDark from "../../../../../public/linkedin_outline_black.svg";
 import githubDark from "../../../../../public/github.png";
 
 const Footer = () => {
-  const router = useRouter();
   const gotoLinkedin = () => {
-    router.push("https://www.linkedin.com/in/min-thant-maung-2620411b3/");
+    window.open("https://www.linkedin.com/in/min-thant-maung-2620411b3/");
   };
   const gotoGithub = () => {
-    router.push("https://github.com/MinThantMaung");
+    window.open("https://github.com/MinThantMaung");
   };
 
   return (
